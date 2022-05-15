@@ -1,0 +1,15 @@
+
+q
+java:S1450"[Remove the "depthTexture" field and declare it as a local variable in the relevant methods.(Æä®‹
+u
+java:S1450"_Remove the "pickingTextureId" field and declare it as a local variable in the relevant methods.(¶‘Šó
+E
+java:S1197@"*Move the array designators [] to the type.(è±ø¢ýÿÿÿÿ
+@
+java:S1197L"*Move the array designators [] to the type.(«ÎŸ‚
+D
+java:S1128".Remove this unused import 'org.joml.Vector2f'.(ÁÐ†ö
+b
+java:S1128"GRemove this unused import 'org.lwjgl.opengl.GL14.GL_DEPTH_COMPONENT32'.(÷×Œÿÿÿÿÿÿ
+T
+java:S3516"9Refactor this method to not always return the same value.(Ä³ïÜÿÿÿÿÿ

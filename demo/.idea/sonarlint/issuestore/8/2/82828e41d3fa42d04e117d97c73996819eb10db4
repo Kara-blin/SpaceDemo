@@ -1,0 +1,23 @@
+
+J
+java:S3740@"/Provide the parametrized type for this generic.(Ì±Ý–ûÿÿÿÿ
+p
+java:S3008"URename this field "ID_COUNTER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç´°Æûÿÿÿÿ
+K
+java:S2065"0Remove the "transient" modifier from this field.(àú…Ÿúÿÿÿÿ
+h
+java:S37762"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ü¡áÈ
+B
+java:S3011=",This accessibility update should be removed.(˜ÂÓ˜
+B
+java:S3011F",This accessibility bypass should be removed.(©ž•¥
+B
+java:S3011I",This accessibility bypass should be removed.(©‹šÀ
+B
+java:S3011M",This accessibility bypass should be removed.(øÞƒš
+B
+java:S3011`",This accessibility bypass should be removed.(Ô¢«¥
+L
+java:S2696s"6Make the enclosing method "static" or remove this set.(€¡Ùð
+q
+java:S1104"VMake gameObject a static final constant or non-public and provide accessors if needed.(àú…Ÿúÿÿÿÿ

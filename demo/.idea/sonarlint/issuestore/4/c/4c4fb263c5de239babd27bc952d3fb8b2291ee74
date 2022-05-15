@@ -1,0 +1,51 @@
+
+m	java:S116"SRename this field "POS_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á®ÿ¹úÿÿÿÿ
+j	java:S116"URename this field "COLOR_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕìÓè
+o	java:S116"ZRename this field "TEX_COORDS_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÊŸ”
+k	java:S116"VRename this field "TEX_ID_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶çÁ¡
+s	java:S116"YRename this field "ENTITY_ID_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É©…ùÿÿÿÿ
+j	java:S116 "URename this field "POS_OFFSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éô„ı
+l	java:S116!"WRename this field "COLOR_OFFSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½›âŠ
+v	java:S116""\Rename this field "TEX_COORDS_OFFSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëäüÿÿÿÿ
+l	java:S116#"XRename this field "TEX_ID_OFFSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾¯—{
+u	java:S116$"[Rename this field "ENTITY_ID_OFFSET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à½ŒÛşÿÿÿÿ
+p	java:S116%"VRename this field "VERTEX_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óˆ¨Åùÿÿÿÿ
+q	java:S116&"\Rename this field "VERTEX_SIZE_BYTES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôóïñ
+<
+java:S1170"!Make this final field static too.(á®ÿ¹úÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(ÕìÓè
+7
+java:S1170"!Make this final field static too.(†ÊŸ”
+7
+java:S1170"!Make this final field static too.(¶çÁ¡
+<
+java:S1170"!Make this final field static too.(É©…ùÿÿÿÿ
+7
+java:S1170 "!Make this final field static too.(éô„ı
+7
+java:S1170!"!Make this final field static too.(½›âŠ
+<
+java:S1170""!Make this final field static too.(ëäüÿÿÿÿ
+6
+java:S1170#"!Make this final field static too.(¾¯—{
+<
+java:S1170$"!Make this final field static too.(à½ŒÛşÿÿÿÿ
+<
+java:S1170%"!Make this final field static too.(óˆ¨Åùÿÿÿÿ
+7
+java:S1170&"!Make this final field static too.(Ôóïñ
+u
+java:S1210°"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ÃÆ©îÿÿÿÿÿ
+>
+java:S1659/"#Declare "vboID" on a separate line.(¼÷õîúÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¢ÑÉÂşÿÿÿÿ
+G
+java:S1128	"+Remove this unused import 'util.AssetPool'.(€şS8¦àƒèŠ0
+m	java:S127Š"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
+E
+java:S1066k"/Merge this if statement with the enclosing one.(õ¢¹
+a
+java:S2184K"FCast one of the operands of this multiplication operation to a "long".(É¥úôùÿÿÿÿ
+]
+java:S2184ÿ"ACast one of the operands of this addition operation to a "float".(¦”„¸øÿÿÿÿ

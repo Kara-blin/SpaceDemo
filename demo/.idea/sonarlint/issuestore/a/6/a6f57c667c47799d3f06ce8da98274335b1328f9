@@ -1,0 +1,49 @@
+
+K
+java:S2065"0Remove the "transient" modifier from this field.(Çìàİúÿÿÿÿ
+K
+java:S2065"0Remove the "transient" modifier from this field.(‚ÓÍàşÿÿÿÿ
+F
+java:S2065"0Remove the "transient" modifier from this field.(ıÚ’ï
+K
+java:S2065"0Remove the "transient" modifier from this field.(¥ë¦øÿÿÿÿ
+F
+java:S2065"0Remove the "transient" modifier from this field.(­•ßï
+F
+java:S2065"0Remove the "transient" modifier from this field.(ĞöÆÀ
+K
+java:S2065"0Remove the "transient" modifier from this field.(—„¬ùÿÿÿÿ
+K
+java:S2065"0Remove the "transient" modifier from this field.(û”şÿÿÿÿ
+K
+java:S2065"0Remove the "transient" modifier from this field.(Š–§¤ùÿÿÿÿ
+K
+java:S2065"0Remove the "transient" modifier from this field.(Ûâµûøÿÿÿÿ
+F
+java:S2065"0Remove the "transient" modifier from this field.(«¯û¾
+K
+java:S2065"0Remove the "transient" modifier from this field.(‹•‘¯ıÿÿÿÿ
+m
+java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Ÿ»ù€ÿÿÿÿÿ
+C
+java:S1128"(Remove this unused import 'jade.Window'.(àé¼èÿÿÿÿÿ
+M
+java:S1068"2Remove this unused "groundDebounce" private field.(‚ÓÍàşÿÿÿÿ
+L
+java:S1068"6Remove this unused "groundDebounceTime" private field.(ıÚ’ï
+L
+java:S1068"6Remove this unused "bigJumpBoostFactor" private field.(ĞöÆÀ
+G
+java:S1068",Remove this unused "jumpTime" private field.(û”şÿÿÿÿ
+@
+java:S1068"*Remove this unused "isDead" private field.(«¯û¾
+J
+java:S1068"/Remove this unused "enemyBounce" private field.(‹•‘¯ıÿÿÿÿ
+j
+java:S1104"TMake flySpeed a static final constant or non-public and provide accessors if needed.(ª†éş
+t
+java:S1104"YMake slowDownForce a static final constant or non-public and provide accessors if needed.(¥‡Öˆúÿÿÿÿ
+w
+java:S1104"\Make terminalVelocity a static final constant or non-public and provide accessors if needed.(˜Øèşÿÿÿÿ
+o
+java:S1104"TMake onGround a static final constant or non-public and provide accessors if needed.(Çìàİúÿÿÿÿ

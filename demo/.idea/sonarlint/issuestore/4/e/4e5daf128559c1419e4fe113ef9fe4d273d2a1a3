@@ -1,0 +1,15 @@
+
+n
+java:S1104
+"SMake fixture a static final constant or non-public and provide accessors if needed.(îÈá‡üÿÿÿÿ
+l
+java:S1104"QMake point a static final constant or non-public and provide accessors if needed.(®Âµúÿÿÿÿ
+h
+java:S1104"RMake normal a static final constant or non-public and provide accessors if needed.(Ç§’Å
+o
+java:S1104"TMake fraction a static final constant or non-public and provide accessors if needed.(®ìûÿÿÿÿ
+j
+java:S1104"OMake hit a static final constant or non-public and provide accessors if needed.(øä‚õúÿÿÿÿ
+p
+java:S1104"UMake hitObject a static final constant or non-public and provide accessors if needed.(»èæèùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•òË¦

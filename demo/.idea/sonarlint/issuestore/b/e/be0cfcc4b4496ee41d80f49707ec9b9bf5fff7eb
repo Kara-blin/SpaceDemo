@@ -1,0 +1,10 @@
+
+V
+java:S1854«":Remove this useless assignment to local variable "origin".(ğåÈùÿÿÿÿ
+G
+java:S1481«"+Remove this unused "origin" local variable.(ğåÈùÿÿÿÿ
+q
+java:S1192"ZDefine a constant instead of duplicating this literal "Raw body must not be null" 3 times.(¨îè
+J
+java:S1066O"/Merge this if statement with the enclosing one.(á´ÚÓúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•òË¦

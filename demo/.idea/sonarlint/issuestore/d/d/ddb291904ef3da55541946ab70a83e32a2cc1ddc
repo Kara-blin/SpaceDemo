@@ -1,0 +1,15 @@
+
+p
+java:S3008"URename this field "GRID_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ìµ¢şÿÿÿÿ
+l
+java:S3008"VRename this field "GRID_HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áş—ü
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ì½ğÿÿÿÿÿ
+q
+java:S1104"VMake GRID_WIDTH a static final constant or non-public and provide accessors if needed.(›Ìµ¢şÿÿÿÿ
+m
+java:S1104"WMake GRID_HEIGHT a static final constant or non-public and provide accessors if needed.(Áş—ü
+K
+java:S1444"0Make this "public static GRID_WIDTH" field final(›Ìµ¢şÿÿÿÿ
+G
+java:S1444"1Make this "public static GRID_HEIGHT" field final(Áş—ü

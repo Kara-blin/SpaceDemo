@@ -1,0 +1,21 @@
+
+o
+java:S3008"TRename this field "MAX_LINES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›æÇÃûÿÿÿÿ
+O
+java:S1118":Add a private constructor to hide the implicit public one.(ÔÔ„
+O
+java:S1135v"2Complete the task associated to this TODO comment.(òÀ¿„8˜¼’„‰0
+P
+java:S1135‡"2Complete the task associated to this TODO comment.(òÀ¿„8ž¼’„‰0
+P
+java:S1135©"2Complete the task associated to this TODO comment.(òÀ¿„8£¼’„‰0
+O
+java:S1128
+"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¥¼’„‰0
+s	java:S127="XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK8¦¼’„‰0
+[
+java:S1155D">Use isEmpty() to check whether the collection is empty or not.(¾¯ŽÙ8§¼’„‰0
+\
+java:S2184'"FCast one of the operands of this multiplication operation to a "long".(©õóŒ
+\
+java:S2184-"FCast one of the operands of this multiplication operation to a "long".(Í„ÒÄ

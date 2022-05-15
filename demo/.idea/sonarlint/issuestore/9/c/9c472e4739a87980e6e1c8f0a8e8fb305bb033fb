@@ -1,0 +1,15 @@
+
+>
+java:S4274:"(Replace this assert with a proper check.(´Ûœú
+>
+java:S1659B"(Declare "fragmentID" on a separate line.(°¶Å
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(›Ïáó
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(÷àÉã
+N	java:S106]"9Replace this use of System.out or System.err by a logger.(ãÑ¤ë
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(¡¾æ
+S	java:S106l"9Replace this use of System.out or System.err by a logger.(íÖ£šüÿÿÿÿ
+S	java:S106m"9Replace this use of System.out or System.err by a logger.(ÿø•£øÿÿÿÿ
+T
+java:S1128"2Remove this unused import 'javax.print.DocFlavor'.(ÍØƒïúÿÿÿÿ8íİ·¬€0
+_
+java:S1192N"IDefine a constant instead of duplicating this literal "ERROR: '" 3 times.(›Ïáó
