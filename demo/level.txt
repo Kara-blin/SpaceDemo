@@ -1,6 +1,6 @@
 [
   {
-    "uid": 7,
+    "uid": 0,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -107,7 +107,7 @@
     "isDead": false
   },
   {
-    "uid": 9,
+    "uid": 1,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -214,7 +214,7 @@
     "isDead": false
   },
   {
-    "uid": 11,
+    "uid": 2,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -321,7 +321,7 @@
     "isDead": false
   },
   {
-    "uid": 13,
+    "uid": 3,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -428,7 +428,7 @@
     "isDead": false
   },
   {
-    "uid": 15,
+    "uid": 4,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -535,7 +535,7 @@
     "isDead": false
   },
   {
-    "uid": 17,
+    "uid": 5,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -642,7 +642,7 @@
     "isDead": false
   },
   {
-    "uid": 19,
+    "uid": 6,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -749,7 +749,7 @@
     "isDead": false
   },
   {
-    "uid": 21,
+    "uid": 7,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -856,7 +856,7 @@
     "isDead": false
   },
   {
-    "uid": 23,
+    "uid": 8,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -963,7 +963,7 @@
     "isDead": false
   },
   {
-    "uid": 25,
+    "uid": 9,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1070,7 +1070,7 @@
     "isDead": false
   },
   {
-    "uid": 27,
+    "uid": 10,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1177,7 +1177,7 @@
     "isDead": false
   },
   {
-    "uid": 29,
+    "uid": 11,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1284,7 +1284,7 @@
     "isDead": false
   },
   {
-    "uid": 30,
+    "uid": 12,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1894,7 +1894,7 @@
                   "frameTime": 0.1
                 }
               ],
-              "time": 0.06660233,
+              "time": 0.05015216,
               "doesLoop": false
             },
             {
@@ -2664,7 +2664,7 @@
     "isDead": false
   },
   {
-    "uid": 32,
+    "uid": 13,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -2672,15 +2672,15 @@
         "properties": {
           "position": {
             "x": 1.875,
-            "y": 1.875
+            "y": 1.375
           },
           "scale": {
-            "x": 0.25,
-            "y": 0.25
+            "x": 0.75,
+            "y": 0.76
           },
-          "rotation": 0.0,
+          "rotation": 180.0,
           "zIndex": 0,
-          "uid": 26
+          "uid": 183
         }
       },
       {
@@ -2693,25 +2693,25 @@
             "w": 1.0
           },
           "sprite": {
-            "width": 16.0,
-            "height": 16.0,
+            "width": 72.0,
+            "height": 72.0,
             "texture": {
-              "filepath": "assets/images/spritesheet.png",
-              "width": 224,
-              "height": 32
+              "filepath": "assets/images/spriteSheet1.png",
+              "width": 2448,
+              "height": 72
             },
             "texCoords": [
               {
-                "x": 0.071428575,
+                "x": 0.029411765,
                 "y": 1.0
               },
               {
-                "x": 0.071428575,
-                "y": 0.5
+                "x": 0.029411765,
+                "y": 0.0
               },
               {
                 "x": 0.0,
-                "y": 0.5
+                "y": 0.0
               },
               {
                 "x": 0.0,
@@ -2719,7 +2719,7 @@
               }
             ]
           },
-          "uid": 27
+          "uid": 184
         }
       },
       {
@@ -2728,415 +2728,58 @@
           "stateTransfers": [
             [
               {
-                "state": "Run",
-                "trigger": "switchDirection"
+                "state": "WholeShip",
+                "trigger": "getDamage1"
               },
-              "Switch Direction"
+              "BreakShip1"
             ],
             [
               {
-                "state": "Switch Direction",
-                "trigger": "jump"
+                "state": "BreakShip1",
+                "trigger": "getDamage2"
               },
-              "Jump"
+              "BreakShip2"
             ],
             [
               {
-                "state": "Fire Switch Direction",
-                "trigger": "stopRunning"
+                "state": "BreakShip2",
+                "trigger": "getDamage3"
               },
-              "FireIdle"
+              "BreakShip3"
             ],
             [
               {
-                "state": "BigRun",
-                "trigger": "damage"
-              },
-              "Run"
-            ],
-            [
-              {
-                "state": "Switch Direction",
+                "state": "BreakShip3",
                 "trigger": "die"
               },
               "Die"
-            ],
-            [
-              {
-                "state": "Fire Switch Direction",
-                "trigger": "die"
-              },
-              "Big Switch Direction"
-            ],
-            [
-              {
-                "state": "Run",
-                "trigger": "stopRunning"
-              },
-              "Idle"
-            ],
-            [
-              {
-                "state": "Run",
-                "trigger": "powerup"
-              },
-              "BigRun"
-            ],
-            [
-              {
-                "state": "FireIdle",
-                "trigger": "die"
-              },
-              "BigIdle"
-            ],
-            [
-              {
-                "state": "FireRun",
-                "trigger": "damage"
-              },
-              "BigRun"
-            ],
-            [
-              {
-                "state": "BigIdle",
-                "trigger": "die"
-              },
-              "Idle"
-            ],
-            [
-              {
-                "state": "Idle",
-                "trigger": "jump"
-              },
-              "Jump"
-            ],
-            [
-              {
-                "state": "BigIdle",
-                "trigger": "powerup"
-              },
-              "FireIdle"
-            ],
-            [
-              {
-                "state": "Run",
-                "trigger": "die"
-              },
-              "Die"
-            ],
-            [
-              {
-                "state": "Jump",
-                "trigger": "stopJumping"
-              },
-              "Idle"
-            ],
-            [
-              {
-                "state": "FireJump",
-                "trigger": "die"
-              },
-              "BigJump"
-            ],
-            [
-              {
-                "state": "FireIdle",
-                "trigger": "startRunning"
-              },
-              "FireRun"
-            ],
-            [
-              {
-                "state": "Switch Direction",
-                "trigger": "powerup"
-              },
-              "Big Switch Direction"
-            ],
-            [
-              {
-                "state": "Switch Direction",
-                "trigger": "stopRunning"
-              },
-              "Idle"
-            ],
-            [
-              {
-                "state": "FireIdle",
-                "trigger": "jump"
-              },
-              "FireJump"
-            ],
-            [
-              {
-                "state": "Fire Switch Direction",
-                "trigger": "damage"
-              },
-              "Big Switch Direction"
-            ],
-            [
-              {
-                "state": "BigIdle",
-                "trigger": "startRunning"
-              },
-              "BigRun"
-            ],
-            [
-              {
-                "state": "Big Switch Direction",
-                "trigger": "jump"
-              },
-              "BigJump"
-            ],
-            [
-              {
-                "state": "Idle",
-                "trigger": "powerup"
-              },
-              "BigIdle"
-            ],
-            [
-              {
-                "state": "Jump",
-                "trigger": "powerup"
-              },
-              "BigJump"
-            ],
-            [
-              {
-                "state": "Run",
-                "trigger": "jump"
-              },
-              "Jump"
-            ],
-            [
-              {
-                "state": "BigIdle",
-                "trigger": "jump"
-              },
-              "BigJump"
-            ],
-            [
-              {
-                "state": "BigJump",
-                "trigger": "stopJumping"
-              },
-              "BigIdle"
-            ],
-            [
-              {
-                "state": "BigRun",
-                "trigger": "stopRunning"
-              },
-              "BigIdle"
-            ],
-            [
-              {
-                "state": "BigRun",
-                "trigger": "jump"
-              },
-              "BigJump"
-            ],
-            [
-              {
-                "state": "FireRun",
-                "trigger": "switchDirection"
-              },
-              "Fire Switch Direction"
-            ],
-            [
-              {
-                "state": "BigRun",
-                "trigger": "die"
-              },
-              "Run"
-            ],
-            [
-              {
-                "state": "FireRun",
-                "trigger": "jump"
-              },
-              "FireJump"
-            ],
-            [
-              {
-                "state": "FireRun",
-                "trigger": "die"
-              },
-              "BigRun"
-            ],
-            [
-              {
-                "state": "BigRun",
-                "trigger": "powerup"
-              },
-              "FireRun"
-            ],
-            [
-              {
-                "state": "Big Switch Direction",
-                "trigger": "startRunning"
-              },
-              "BigRun"
-            ],
-            [
-              {
-                "state": "Big Switch Direction",
-                "trigger": "die"
-              },
-              "Switch Direction"
-            ],
-            [
-              {
-                "state": "Idle",
-                "trigger": "startRunning"
-              },
-              "Run"
-            ],
-            [
-              {
-                "state": "Big Switch Direction",
-                "trigger": "powerup"
-              },
-              "Fire Switch Direction"
-            ],
-            [
-              {
-                "state": "BigRun",
-                "trigger": "switchDirection"
-              },
-              "Big Switch Direction"
-            ],
-            [
-              {
-                "state": "Big Switch Direction",
-                "trigger": "stopRunning"
-              },
-              "BigIdle"
-            ],
-            [
-              {
-                "state": "BigJump",
-                "trigger": "die"
-              },
-              "Jump"
-            ],
-            [
-              {
-                "state": "BigJump",
-                "trigger": "powerup"
-              },
-              "FireJump"
-            ],
-            [
-              {
-                "state": "Switch Direction",
-                "trigger": "startRunning"
-              },
-              "Run"
-            ],
-            [
-              {
-                "state": "FireJump",
-                "trigger": "damage"
-              },
-              "BigJump"
-            ],
-            [
-              {
-                "state": "FireRun",
-                "trigger": "stopRunning"
-              },
-              "FireIdle"
-            ],
-            [
-              {
-                "state": "BigJump",
-                "trigger": "damage"
-              },
-              "Jump"
-            ],
-            [
-              {
-                "state": "FireIdle",
-                "trigger": "damage"
-              },
-              "BigIdle"
-            ],
-            [
-              {
-                "state": "Fire Switch Direction",
-                "trigger": "jump"
-              },
-              "FireJump"
-            ],
-            [
-              {
-                "state": "FireJump",
-                "trigger": "stopJumping"
-              },
-              "FireIdle"
-            ],
-            [
-              {
-                "state": "Idle",
-                "trigger": "die"
-              },
-              "Die"
-            ],
-            [
-              {
-                "state": "Jump",
-                "trigger": "die"
-              },
-              "Die"
-            ],
-            [
-              {
-                "state": "Big Switch Direction",
-                "trigger": "damage"
-              },
-              "Switch Direction"
-            ],
-            [
-              {
-                "state": "BigIdle",
-                "trigger": "damage"
-              },
-              "Idle"
-            ],
-            [
-              {
-                "state": "Fire Switch Direction",
-                "trigger": "startRunning"
-              },
-              "FireRun"
             ]
           ],
           "states": [
             {
-              "title": "Run",
+              "title": "WholeShip",
               "animationFrames": [
                 {
                   "sprite": {
-                    "width": 16.0,
-                    "height": 16.0,
+                    "width": 72.0,
+                    "height": 72.0,
                     "texture": {
-                      "filepath": "assets/images/spritesheet.png",
-                      "width": 224,
-                      "height": 32
+                      "filepath": "assets/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
                     },
                     "texCoords": [
                       {
-                        "x": 0.071428575,
+                        "x": 0.029411765,
                         "y": 1.0
                       },
                       {
-                        "x": 0.071428575,
-                        "y": 0.5
+                        "x": 0.029411765,
+                        "y": 0.0
                       },
                       {
                         "x": 0.0,
-                        "y": 0.5
+                        "y": 0.0
                       },
                       {
                         "x": 0.0,
@@ -3145,91 +2788,38 @@
                     ]
                   },
                   "frameTime": 0.2
-                },
+                }
+              ],
+              "time": 0.18336006,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakShip1",
+              "animationFrames": [
                 {
                   "sprite": {
-                    "width": 16.0,
-                    "height": 16.0,
+                    "width": 72.0,
+                    "height": 72.0,
                     "texture": {
-                      "filepath": "assets/images/spritesheet.png",
-                      "width": 224,
-                      "height": 32
+                      "filepath": "assets/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
                     },
                     "texCoords": [
                       {
-                        "x": 0.21428572,
+                        "x": 0.05882353,
                         "y": 1.0
                       },
                       {
-                        "x": 0.21428572,
-                        "y": 0.5
+                        "x": 0.05882353,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.14285715,
-                        "y": 0.5
+                        "x": 0.029411765,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.14285715,
-                        "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 16.0,
-                    "texture": {
-                      "filepath": "assets/images/spritesheet.png",
-                      "width": 224,
-                      "height": 32
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.2857143,
-                        "y": 1.0
-                      },
-                      {
-                        "x": 0.2857143,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.21428572,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.21428572,
-                        "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 16.0,
-                    "texture": {
-                      "filepath": "assets/images/spritesheet.png",
-                      "width": 224,
-                      "height": 32
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.21428572,
-                        "y": 1.0
-                      },
-                      {
-                        "x": 0.21428572,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.14285715,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.14285715,
+                        "x": 0.029411765,
                         "y": 1.0
                       }
                     ]
@@ -3238,114 +2828,77 @@
                 }
               ],
               "time": 0.0,
-              "doesLoop": true
-            },
-            {
-              "title": "Idle",
-              "animationFrames": [
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 16.0,
-                    "texture": {
-                      "filepath": "assets/images/spritesheet.png",
-                      "width": 224,
-                      "height": 32
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.071428575,
-                        "y": 1.0
-                      },
-                      {
-                        "x": 0.071428575,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0,
-                        "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.1
-                }
-              ],
-              "time": 0.06660233,
               "doesLoop": false
             },
             {
-              "title": "Switch Direction",
+              "title": "BreakShip2",
               "animationFrames": [
                 {
                   "sprite": {
-                    "width": 16.0,
-                    "height": 16.0,
+                    "width": 72.0,
+                    "height": 72.0,
                     "texture": {
-                      "filepath": "assets/images/spritesheet.png",
-                      "width": 224,
-                      "height": 32
+                      "filepath": "assets/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
                     },
                     "texCoords": [
                       {
-                        "x": 0.35714287,
+                        "x": 0.0882353,
                         "y": 1.0
                       },
                       {
-                        "x": 0.35714287,
-                        "y": 0.5
+                        "x": 0.0882353,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.2857143,
-                        "y": 0.5
+                        "x": 0.05882353,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.2857143,
+                        "x": 0.05882353,
                         "y": 1.0
                       }
                     ]
                   },
-                  "frameTime": 0.1
+                  "frameTime": 0.2
                 }
               ],
               "time": 0.0,
               "doesLoop": false
             },
             {
-              "title": "Jump",
+              "title": "BreakShip3",
               "animationFrames": [
                 {
                   "sprite": {
-                    "width": 16.0,
-                    "height": 16.0,
+                    "width": 72.0,
+                    "height": 72.0,
                     "texture": {
-                      "filepath": "assets/images/spritesheet.png",
-                      "width": 224,
-                      "height": 32
+                      "filepath": "assets/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
                     },
                     "texCoords": [
                       {
-                        "x": 0.42857143,
+                        "x": 0.11764706,
                         "y": 1.0
                       },
                       {
-                        "x": 0.42857143,
-                        "y": 0.5
+                        "x": 0.11764706,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.35714287,
-                        "y": 0.5
+                        "x": 0.0882353,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.35714287,
+                        "x": 0.0882353,
                         "y": 1.0
                       }
                     ]
                   },
-                  "frameTime": 0.1
+                  "frameTime": 0.2
                 }
               ],
               "time": 0.0,
@@ -3356,625 +2909,89 @@
               "animationFrames": [
                 {
                   "sprite": {
-                    "width": 16.0,
-                    "height": 16.0,
+                    "width": 72.0,
+                    "height": 72.0,
                     "texture": {
-                      "filepath": "assets/images/spritesheet.png",
-                      "width": 224,
-                      "height": 32
+                      "filepath": "assets/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
                     },
                     "texCoords": [
                       {
-                        "x": 0.5,
+                        "x": 0.4117647,
                         "y": 1.0
                       },
                       {
-                        "x": 0.5,
-                        "y": 0.5
+                        "x": 0.4117647,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.42857143,
-                        "y": 0.5
+                        "x": 0.38235295,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.42857143,
+                        "x": 0.38235295,
                         "y": 1.0
                       }
                     ]
                   },
                   "frameTime": 0.1
-                }
-              ],
-              "time": 0.0,
-              "doesLoop": false
-            },
-            {
-              "title": "BigRun",
-              "animationFrames": [
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.04761905,
-                        "y": 1.0
-                      },
-                      {
-                        "x": 0.04761905,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0,
-                        "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
                 },
                 {
                   "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
+                    "width": 72.0,
+                    "height": 72.0,
                     "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
+                      "filepath": "assets/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
                     },
                     "texCoords": [
                       {
-                        "x": 0.0952381,
+                        "x": 0.44117647,
                         "y": 1.0
                       },
                       {
-                        "x": 0.0952381,
-                        "y": 0.5
+                        "x": 0.44117647,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.04761905,
-                        "y": 0.5
+                        "x": 0.4117647,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.04761905,
-                        "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.14285715,
-                        "y": 1.0
-                      },
-                      {
-                        "x": 0.14285715,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.1904762,
-                        "y": 1.0
-                      },
-                      {
-                        "x": 0.1904762,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.14285715,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.14285715,
-                        "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.14285715,
-                        "y": 1.0
-                      },
-                      {
-                        "x": 0.14285715,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.0952381,
-                        "y": 1.0
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.04761905,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.04761905,
-                        "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                }
-              ],
-              "time": 0.0,
-              "doesLoop": true
-            },
-            {
-              "title": "BigIdle",
-              "animationFrames": [
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.04761905,
-                        "y": 1.0
-                      },
-                      {
-                        "x": 0.04761905,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0,
+                        "x": 0.4117647,
                         "y": 1.0
                       }
                     ]
                   },
                   "frameTime": 0.1
-                }
-              ],
-              "time": 0.0,
-              "doesLoop": false
-            },
-            {
-              "title": "Big Switch Direction",
-              "animationFrames": [
+                },
                 {
                   "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
+                    "width": 72.0,
+                    "height": 72.0,
                     "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
+                      "filepath": "assets/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
                     },
                     "texCoords": [
                       {
-                        "x": 0.23809524,
+                        "x": 0.47058824,
                         "y": 1.0
                       },
                       {
-                        "x": 0.23809524,
-                        "y": 0.5
+                        "x": 0.47058824,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.1904762,
-                        "y": 0.5
+                        "x": 0.44117647,
+                        "y": 0.0
                       },
                       {
-                        "x": 0.1904762,
+                        "x": 0.44117647,
                         "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.1
-                }
-              ],
-              "time": 0.0,
-              "doesLoop": false
-            },
-            {
-              "title": "BigJump",
-              "animationFrames": [
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.2857143,
-                        "y": 1.0
-                      },
-                      {
-                        "x": 0.2857143,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.23809524,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.23809524,
-                        "y": 1.0
-                      }
-                    ]
-                  },
-                  "frameTime": 0.1
-                }
-              ],
-              "time": 0.0,
-              "doesLoop": false
-            },
-            {
-              "title": "FireRun",
-              "animationFrames": [
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.04761905,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.04761905,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.0,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.0,
-                        "y": 0.5
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.0952381,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.04761905,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.04761905,
-                        "y": 0.5
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.14285715,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.14285715,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 0.5
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.1904762,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.1904762,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.14285715,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.14285715,
-                        "y": 0.5
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.14285715,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.14285715,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 0.5
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                },
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.0952381,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.0952381,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.04761905,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.04761905,
-                        "y": 0.5
-                      }
-                    ]
-                  },
-                  "frameTime": 0.2
-                }
-              ],
-              "time": 0.0,
-              "doesLoop": true
-            },
-            {
-              "title": "FireIdle",
-              "animationFrames": [
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.04761905,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.04761905,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.0,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.0,
-                        "y": 0.5
-                      }
-                    ]
-                  },
-                  "frameTime": 0.1
-                }
-              ],
-              "time": 0.0,
-              "doesLoop": false
-            },
-            {
-              "title": "Fire Switch Direction",
-              "animationFrames": [
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.23809524,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.23809524,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.1904762,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.1904762,
-                        "y": 0.5
-                      }
-                    ]
-                  },
-                  "frameTime": 0.1
-                }
-              ],
-              "time": 0.0,
-              "doesLoop": false
-            },
-            {
-              "title": "FireJump",
-              "animationFrames": [
-                {
-                  "sprite": {
-                    "width": 16.0,
-                    "height": 32.0,
-                    "texture": {
-                      "filepath": "assets/images/bigSpritesheet.png",
-                      "width": 336,
-                      "height": 64
-                    },
-                    "texCoords": [
-                      {
-                        "x": 0.2857143,
-                        "y": 0.5
-                      },
-                      {
-                        "x": 0.2857143,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.23809524,
-                        "y": 0.0
-                      },
-                      {
-                        "x": 0.23809524,
-                        "y": 0.5
                       }
                     ]
                   },
@@ -3985,8 +3002,8 @@
               "doesLoop": false
             }
           ],
-          "defaultStateTitle": "Idle",
-          "uid": 28
+          "defaultStateTitle": "WholeShip",
+          "uid": 185
         }
       },
       {
@@ -4006,19 +3023,25 @@
           "isSensor": false,
           "fixedRotation": true,
           "continuousCollision": false,
-          "uid": 29
+          "uid": 186
         }
       },
       {
-        "type": "physics2d.components.PillboxCollider",
+        "type": "physics2d.components.Box2DCollider",
         "properties": {
-          "width": 0.39,
-          "height": 0.31,
+          "halfSize": {
+            "x": 0.45,
+            "y": 0.35
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
           "offset": {
             "x": 0.0,
             "y": 0.0
           },
-          "uid": 30
+          "uid": 187
         }
       },
       {
@@ -4030,7 +3053,7 @@
             "x": 2.1,
             "y": 3.1
           },
-          "uid": 31
+          "uid": 188
         }
       }
     ],

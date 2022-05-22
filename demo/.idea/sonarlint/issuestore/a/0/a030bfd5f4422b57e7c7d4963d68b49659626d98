@@ -1,15 +1,14 @@
 
-£
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÕ’Ñøÿÿÿÿ8Ã‚¯ŸŠ0
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÕ’Ñøÿÿÿÿ
+h
+java:S3776e"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(Ü¡áÈ
 o
-java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(Ü¡áÈ8Í‚¯ŸŠ0
-Y	java:S125Š"<This block of commented-out lines of code should be removed.(èì™Û8ä‚¯ŸŠ0
-v
-java:S1192"YDefine a constant instead of duplicating this literal "assets/images/gizmos.png" 3 times.(¥Ú ¸8ë‚¯ŸŠ0
-‘
-java:S1192"tDefine a constant instead of duplicating this literal "assets/images/spritesheets/decorationsAndBlocks.png" 3 times.(ýõŒ8ì‚¯ŸŠ0
-€
-java:S1192/"^Define a constant instead of duplicating this literal "assets/images/spritesheet.png" 3 times.(Ûä¦ßÿÿÿÿÿ8ì‚¯ŸŠ0
-z
-java:S1192;"XDefine a constant instead of duplicating this literal "assets/images/items.png" 3 times.(êóÓ±ýÿÿÿÿ8ì‚¯ŸŠ0
-u	java:S135u"YReduce the total number of break and continue statements in this loop to use at most one.(àÙÌÚ8î‚¯ŸŠ0
+java:S1192"YDefine a constant instead of duplicating this literal "assets/images/gizmos.png" 3 times.(¥Ú ¸
+u
+java:S1192+"_Define a constant instead of duplicating this literal "assets/images/spriteSheet1.png" 3 times.(Àµä­
+Š
+java:S1192"tDefine a constant instead of duplicating this literal "assets/images/spritesheets/decorationsAndBlocks.png" 3 times.(ýõŒ
+s
+java:S1192="XDefine a constant instead of duplicating this literal "assets/images/items.png" 3 times.(êóÓ±ýÿÿÿÿ
+n	java:S135w"YReduce the total number of break and continue statements in this loop to use at most one.(àÙÌÚ

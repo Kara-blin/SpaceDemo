@@ -1,6 +1,8 @@
 package components;
 
+import jade.GameObject;
 import jade.KeyListener;
+import jade.Prefabs;
 import jade.Window;
 import org.joml.Vector2f;
 import physics2d.components.Rigidbody2D;
@@ -12,18 +14,12 @@ public class PlayerController extends Component {
     public float slowDownForce = 0.05f;
     public Vector2f terminalVelocity = new Vector2f(2.1f, 3.1f);
 
-    public transient boolean onGround = false;
-    private transient float groundDebounce = 0.0f;
-    private transient float groundDebounceTime = 0.1f;
     private transient Rigidbody2D rb;
     private transient StateMachine stateMachine;
     private transient float bigJumpBoostFactor = 1.05f;
-    private transient float playerWidth = 0.25f;
-    private transient int jumpTime = 0;
     private transient Vector2f acceleration = new Vector2f();
     private transient Vector2f velocity = new Vector2f();
     private transient boolean isDead = false;
-    private transient int enemyBounce = 0;
 
     @Override
     public void start() {
@@ -55,23 +51,17 @@ public class PlayerController extends Component {
         }
 
         if (KeyListener.isKeyPressed(GLFW_KEY_RIGHT) || KeyListener.isKeyPressed(GLFW_KEY_D)) {
-            this.gameObject.transform.scale.x = playerWidth;
             this.acceleration.x = flySpeed;
             if (this.velocity.x < 0) {
-                this.stateMachine.trigger("switchDirection");
                 this.velocity.x += slowDownForce;
             } else {
-                this.stateMachine.trigger("startRunning");
             }
         } else if (KeyListener.isKeyPressed(GLFW_KEY_LEFT) || KeyListener.isKeyPressed(GLFW_KEY_A)) {
-            this.gameObject.transform.scale.x = -playerWidth;
             this.acceleration.x = -flySpeed;
 
             if (this.velocity.x > 0) {
-                this.stateMachine.trigger("switchDirection");
                 this.velocity.x -= slowDownForce;
             } else {
-                this.stateMachine.trigger("startRunning");
             }
         } else {
             this.acceleration.x = 0;
@@ -82,8 +72,13 @@ public class PlayerController extends Component {
             }
 
             if (this.velocity.x == 0) {
-                this.stateMachine.trigger("stopRunning");
             }
+        }
+        if((KeyListener.isKeyPressed(GLFW_KEY_SPACE))&&(Plasma.canSpawn())){
+            Vector2f position = new Vector2f(this.gameObject.transform.position).add(new Vector2f(0,0.30f));
+            GameObject plasma = Prefabs.generatePlasma(position);
+            Window.getScene().addGameObjectToScene(plasma);
+
         }
 
 

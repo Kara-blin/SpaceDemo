@@ -40,6 +40,8 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
     @Override
     public void loadResources(Scene scene) {
         AssetPool.getShader("assets/shaders/default.glsl");
+        AssetPool.addSpritesheet("assets/images/spriteSheet1.png",
+                new Spritesheet(AssetPool.getTexture("assets/images/spriteSheet1.png"),72,72,34,0));
 
         AssetPool.addSpritesheet("assets/images/spritesheets/decorationsAndBlocks.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/spritesheets/decorationsAndBlocks.png"),
@@ -126,7 +128,7 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
 
                     ImGui.pushID(i);
                     if (ImGui.imageButton(id, spriteWidth, spriteHeight, texCoords[2].x, texCoords[0].y, texCoords[0].x, texCoords[2].y)) {
-                        GameObject object = Prefabs.generateSpriteObject(sprite, 0.25f, 0.25f);
+                        GameObject object = Prefabs.generateSpriteObject(sprite, 0.25f, 0.25f,0);
                         Rigidbody2D rb = new Rigidbody2D();
                         rb.setBodyType(BodyType.Static);
                         object.addComponent(rb);
@@ -134,9 +136,6 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
                         b2d.setHalfSize(new Vector2f(0.25f, 0.25f));
                         object.addComponent(b2d);
                         object.addComponent(new Ground());
-                        if (i == 12) {
-                            //object.addComponent(new BreakableBrick());
-                        }
                         levelEditorStuff.getComponent(MouseControls.class).pickupObject(object);
                     }
                     ImGui.popID();
@@ -154,15 +153,15 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
             }
 
             if (ImGui.beginTabItem("Prefabs")) {
-                Spritesheet playerSprites = AssetPool.getSpritesheet("assets/images/spritesheet.png");
+                Spritesheet playerSprites = AssetPool.getSpritesheet("assets/images/spriteSheet1.png");
                 Sprite sprite = playerSprites.getSprite(0);
-                float spriteWidth = sprite.getWidth() * 4;
-                float spriteHeight = sprite.getHeight() * 4;
+                float spriteWidth = sprite.getWidth();
+                float spriteHeight = sprite.getHeight();
                 int id = sprite.getTexId();
                 Vector2f[] texCoords = sprite.getTexCoords();
 
                 if (ImGui.imageButton(id, spriteWidth, spriteHeight, texCoords[2].x, texCoords[0].y, texCoords[0].x, texCoords[2].y)) {
-                    GameObject object = Prefabs.generateMario();
+                    GameObject object = Prefabs.generateShip1();
                     levelEditorStuff.getComponent(MouseControls.class).pickupObject(object);
                 }
                 ImGui.sameLine();
