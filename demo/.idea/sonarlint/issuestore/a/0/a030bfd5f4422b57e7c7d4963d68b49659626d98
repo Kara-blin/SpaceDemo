@@ -3,12 +3,12 @@
 java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÕ’Ñøÿÿÿÿ
 h
 java:S3776e"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(Ü¡áÈ
+S
+java:S1854¯"7Remove this useless assignment to local variable "uid".(ùä¨«ÿÿÿÿÿ
 o
 java:S1192"YDefine a constant instead of duplicating this literal "assets/images/gizmos.png" 3 times.(¥Ú ¸
 u
 java:S1192+"_Define a constant instead of duplicating this literal "assets/images/spriteSheet1.png" 3 times.(Àµä­
 Š
 java:S1192"tDefine a constant instead of duplicating this literal "assets/images/spritesheets/decorationsAndBlocks.png" 3 times.(ıõŒ
-s
-java:S1192="XDefine a constant instead of duplicating this literal "assets/images/items.png" 3 times.(êóÓ±ıÿÿÿÿ
 n	java:S135w"YReduce the total number of break and continue statements in this loop to use at most one.(àÙÌÚ

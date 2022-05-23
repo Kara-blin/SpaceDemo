@@ -13,11 +13,13 @@ K
 java:S2065"0Remove the "transient" modifier from this field.(Ûâµûøÿÿÿÿ
 F
 java:S2065"0Remove the "transient" modifier from this field.(«¯û¾
+W
+java:S1126"AReplace this if-then-else statement by a single return statement.(ÆÖö
 m
-java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(Ÿ»ù€ÿÿÿÿÿ
->	java:S1089")Either remove or fill this block of code.(å¥ž‡
->	java:S108@")Either remove or fill this block of code.(å¥ž‡
-C	java:S108J")Either remove or fill this block of code.(¢…£šüÿÿÿÿ
+java:S3776+"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(Ÿ»ù€ÿÿÿÿÿ
+>	java:S108G")Either remove or fill this block of code.(å¥ž‡
+>	java:S108N")Either remove or fill this block of code.(å¥ž‡
+C	java:S108X")Either remove or fill this block of code.(¢…£šüÿÿÿÿ
 F
 java:S1068"0Remove this unused "stateMachine" private field.(­•ßï
 L

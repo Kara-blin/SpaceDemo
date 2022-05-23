@@ -1,19 +1,12 @@
 
 K
-java:S2065"0Remove the "transient" modifier from this field.(¥ë¦øÿÿÿÿ
-K
-java:S2065"0Remove the "transient" modifier from this field.(ÿ¬ßÿÿÿÿÿ
-K
-java:S2065	"0Remove the "transient" modifier from this field.(Ûâµûøÿÿÿÿ
+java:S2065	"0Remove the "transient" modifier from this field.(¥ë¦øÿÿÿÿ
 K
 java:S2065
-"0Remove the "transient" modifier from this field.(Š–§¤ùÿÿÿÿ
-^
-java:S1126"AReplace this if-then-else statement by a single return statement.(ÆÖö8âô—ç0
-S
-java:S2696"6Make the enclosing method "static" or remove this set.(¤šÚÒ8¢¢Ÿç0
-X
-java:S2696 "6Make the enclosing method "static" or remove this set.(ÔãÑÊıÿÿÿÿ8¢¢Ÿç0
+"0Remove the "transient" modifier from this field.(ÿ¬ßÿÿÿÿÿ
 K
-java:S1068
-"0Remove this unused "acceleration" private field.(Š–§¤ùÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(Ûâµûøÿÿÿÿ
+K
+java:S2065"0Remove the "transient" modifier from this field.(Š–§¤ùÿÿÿÿ
+K
+java:S1068"0Remove this unused "acceleration" private field.(Š–§¤ùÿÿÿÿ

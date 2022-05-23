@@ -86,24 +86,64 @@ public class Prefabs {
         return ship1;
     }
 
-    public static GameObject generateQuestionBlock() {
-        Spritesheet playerSprites = AssetPool.getSpritesheet("assets/images/items.png");
-        GameObject questionBlock = generateSpriteObject(playerSprites.getSprite(0), 0.25f, 0.25f,0);
+    public static GameObject generateAsteroid1() {
+        Spritesheet playerSprites = AssetPool.getSpritesheet("assets/images/spriteSheet1.png");
+        GameObject asteroid = generateSpriteObject(playerSprites.getSprite(19), 0.85f, 0.85f,0);
 
-        AnimationState run = new AnimationState();
-        run.title = "Question";
-        float defaultFrameTime = 0.23f;
-        run.addFrame(playerSprites.getSprite(0), 0.57f);
-        run.addFrame(playerSprites.getSprite(1), defaultFrameTime);
-        run.addFrame(playerSprites.getSprite(2), defaultFrameTime);
-        run.setLoop(true);
+        AnimationState whole = new AnimationState();
+        whole.title = "WholeAsteroid";
+        float defaultFrameTime = 0.2f;
+        whole.addFrame(playerSprites.getSprite(19), defaultFrameTime);
+        whole.setLoop(false);
+
+        AnimationState break1 = new AnimationState();
+        break1.title = "BreakAsteroid1";
+        break1.addFrame(playerSprites.getSprite(20), defaultFrameTime);
+        break1.setLoop(false);
+
+        AnimationState break2 = new AnimationState();
+        break2.title = "BreakAsteroid2";
+        break2.addFrame(playerSprites.getSprite(21), defaultFrameTime);
+        break2.setLoop(false);
+
+        AnimationState break3 = new AnimationState();
+        break3.title = "BreakAsteroid3";
+        break3.addFrame(playerSprites.getSprite(22), defaultFrameTime);
+        break3.setLoop(false);
+
+        AnimationState break4 = new AnimationState();
+        break4.title = "BreakAsteroid4";
+        break4.addFrame(playerSprites.getSprite(23), defaultFrameTime);
+        break4.setLoop(false);
 
         StateMachine stateMachine = new StateMachine();
-        stateMachine.addState(run);
-        stateMachine.setDefaultState(run.title);
-        questionBlock.addComponent(stateMachine);
+        stateMachine.addState(whole);
+        stateMachine.addState(break1);
+        stateMachine.addState(break2);
+        stateMachine.addState(break3);
+        stateMachine.addState(break4);
 
-        return questionBlock;
+        stateMachine.setDefaultState(whole.title);
+        stateMachine.addState(whole.title,break1.title,"getDamage1");
+        stateMachine.addState(break1.title, break2.title, "getDamage2");
+        stateMachine.addState(break2.title, break3.title, "getDamage3");
+        stateMachine.addState(break3.title, break4.title, "die");
+
+        asteroid.addComponent(stateMachine);
+
+        CircleCollider circleCollider = new CircleCollider();
+        circleCollider.setRadius(0.40f);
+        asteroid.addComponent(circleCollider);
+
+        Rigidbody2D rb = new Rigidbody2D();
+        rb.setBodyType(BodyType.Dynamic);
+        rb.setFixedRotation(false);
+        rb.setContinuousCollision(false);
+        asteroid.addComponent(rb);
+
+
+
+        return asteroid;
     }
 
     public static GameObject generatePlasma(Vector2f position) {

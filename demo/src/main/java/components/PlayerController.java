@@ -20,6 +20,17 @@ public class PlayerController extends Component {
     private transient Vector2f acceleration = new Vector2f();
     private transient Vector2f velocity = new Vector2f();
     private transient boolean isDead = false;
+    private  float rechargeTime=0;
+    private float constantRechargeTime=0.25f;
+
+
+    public boolean canSpawn(){
+        if (rechargeTime<=0){
+            return true;
+        }else{
+            return false;
+        }
+    }
 
     @Override
     public void start() {
@@ -30,6 +41,9 @@ public class PlayerController extends Component {
 
     @Override
     public void update(float dt) {
+        if(rechargeTime>0){
+            rechargeTime-=dt;
+        }
         if(KeyListener.isKeyPressed(GLFW_KEY_UP) || KeyListener.isKeyPressed(GLFW_KEY_W)){
             this.acceleration.y = flySpeed;
             if(this.velocity.y<0){
@@ -74,7 +88,8 @@ public class PlayerController extends Component {
             if (this.velocity.x == 0) {
             }
         }
-        if((KeyListener.isKeyPressed(GLFW_KEY_SPACE))&&(Plasma.canSpawn())){
+        if((KeyListener.isKeyPressed(GLFW_KEY_SPACE))&&(canSpawn())){
+            rechargeTime = constantRechargeTime;
             Vector2f position = new Vector2f(this.gameObject.transform.position).add(new Vector2f(0,0.30f));
             GameObject plasma = Prefabs.generatePlasma(position);
             Window.getScene().addGameObjectToScene(plasma);

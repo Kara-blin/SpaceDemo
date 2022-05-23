@@ -153,6 +153,7 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
             }
 
             if (ImGui.beginTabItem("Prefabs")) {
+                int uid = 0;
                 Spritesheet playerSprites = AssetPool.getSpritesheet("assets/images/spriteSheet1.png");
                 Sprite sprite = playerSprites.getSprite(0);
                 float spriteWidth = sprite.getWidth();
@@ -160,20 +161,23 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
                 int id = sprite.getTexId();
                 Vector2f[] texCoords = sprite.getTexCoords();
 
+                ImGui.pushID(uid++);
                 if (ImGui.imageButton(id, spriteWidth, spriteHeight, texCoords[2].x, texCoords[0].y, texCoords[0].x, texCoords[2].y)) {
                     GameObject object = Prefabs.generateShip1();
                     levelEditorStuff.getComponent(MouseControls.class).pickupObject(object);
                 }
+                ImGui.popID();
                 ImGui.sameLine();
 
-                Spritesheet items = AssetPool.getSpritesheet("assets/images/items.png");
-                sprite = items.getSprite(0);
+                sprite = playerSprites.getSprite(19);
                 id = sprite.getTexId();
                 texCoords = sprite.getTexCoords();
+                ImGui.pushID(uid++);
                 if (ImGui.imageButton(id, spriteWidth, spriteHeight, texCoords[2].x, texCoords[0].y, texCoords[0].x, texCoords[2].y)) {
-                    GameObject object = Prefabs.generateQuestionBlock();
+                    GameObject object = Prefabs.generateAsteroid1();
                     levelEditorStuff.getComponent(MouseControls.class).pickupObject(object);
                 }
+                ImGui.popID();
 
                 ImGui.endTabItem();
             }
