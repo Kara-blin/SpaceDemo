@@ -10,6 +10,8 @@ import physics2d.components.Rigidbody2D;
 import static org.lwjgl.glfw.GLFW.*;
 
 public class PlayerController extends Component {
+    public int HP=100;
+
     public float flySpeed = 1.9f;
     public float slowDownForce = 0.05f;
     public Vector2f terminalVelocity = new Vector2f(2.1f, 3.1f);

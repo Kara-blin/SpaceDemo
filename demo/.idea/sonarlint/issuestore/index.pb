@@ -55,8 +55,6 @@ W
 'src/main/java/components/GridLines.java,3\f\3ff026b88f553223499e32921a955b5f12dd22f6
 N
 src/main/java/jade/Camera.java,d\1\d129d7f80b598f0f38a128e7d41ef64651a424d7
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 R
 "src/main/java/renderer/Shader.java,9\c\9c472e4739a87980e6e1c8f0a8e8fb305bb033fb
 Q
@@ -129,11 +127,15 @@ Y
 )src/main/java/components/Spritesheet.java,a\f\af101c80b916164251cd8d08a98be9e9bd4c52bd
 Z
 *src/main/java/components/StateMachine.java,4\3\43ada85c911c501e275422c4d429f2f1c0723711
-^
-.src/main/java/components/PlayerController.java,a\6\a6f57c667c47799d3f06ce8da98274335b1328f9
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 T
 $src/main/java/components/Plasma.java,d\7\d7cb2fbdfd9384a98de6f88e1cc5686ff38f4cee
-O
-src/main/java/jade/Prefabs.java,3\d\3d904131dbbbdda031581e406b6fe14085f72aa0
+^
+.src/main/java/components/PlayerController.java,a\6\a6f57c667c47799d3f06ce8da98274335b1328f9
 e
 5src/main/java/scenes/LevelEditorSceneInitializer.java,a\0\a030bfd5f4422b57e7c7d4963d68b49659626d98
+O
+src/main/java/jade/Prefabs.java,3\d\3d904131dbbbdda031581e406b6fe14085f72aa0
+V
+&src/main/java/components/Asteroid.java,e\d\ed0057ec0177de5782edef0c25e12d11de1d1e82

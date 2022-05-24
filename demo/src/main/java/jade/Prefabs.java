@@ -93,28 +93,35 @@ public class Prefabs {
         AnimationState whole = new AnimationState();
         whole.title = "WholeAsteroid";
         float defaultFrameTime = 0.2f;
-        whole.addFrame(playerSprites.getSprite(19), defaultFrameTime);
+        whole.addFrame(playerSprites.getSprite(18), defaultFrameTime);
         whole.setLoop(false);
 
         AnimationState break1 = new AnimationState();
         break1.title = "BreakAsteroid1";
-        break1.addFrame(playerSprites.getSprite(20), defaultFrameTime);
+        break1.addFrame(playerSprites.getSprite(19), defaultFrameTime);
         break1.setLoop(false);
 
         AnimationState break2 = new AnimationState();
         break2.title = "BreakAsteroid2";
-        break2.addFrame(playerSprites.getSprite(21), defaultFrameTime);
+        break2.addFrame(playerSprites.getSprite(20), defaultFrameTime);
         break2.setLoop(false);
 
         AnimationState break3 = new AnimationState();
         break3.title = "BreakAsteroid3";
-        break3.addFrame(playerSprites.getSprite(22), defaultFrameTime);
+        break3.addFrame(playerSprites.getSprite(21), defaultFrameTime);
         break3.setLoop(false);
 
         AnimationState break4 = new AnimationState();
         break4.title = "BreakAsteroid4";
-        break4.addFrame(playerSprites.getSprite(23), defaultFrameTime);
+        break4.addFrame(playerSprites.getSprite(22), defaultFrameTime);
         break4.setLoop(false);
+
+        AnimationState die = new AnimationState();
+        die.title = "Die";
+        die.addFrame(playerSprites.getSprite(13), 0.2f);
+        die.addFrame(playerSprites.getSprite(14), 0.2f);
+        die.addFrame(playerSprites.getSprite(15), 0.2f);
+        die.setLoop(false);
 
         StateMachine stateMachine = new StateMachine();
         stateMachine.addState(whole);
@@ -122,17 +129,20 @@ public class Prefabs {
         stateMachine.addState(break2);
         stateMachine.addState(break3);
         stateMachine.addState(break4);
+        stateMachine.addState(die);
 
         stateMachine.setDefaultState(whole.title);
         stateMachine.addState(whole.title,break1.title,"getDamage1");
         stateMachine.addState(break1.title, break2.title, "getDamage2");
         stateMachine.addState(break2.title, break3.title, "getDamage3");
-        stateMachine.addState(break3.title, break4.title, "die");
+        stateMachine.addState(break3.title, break4.title, "getDamage4");
+        stateMachine.addState(break4.title, die.title, "die");
+
 
         asteroid.addComponent(stateMachine);
 
         CircleCollider circleCollider = new CircleCollider();
-        circleCollider.setRadius(0.40f);
+        circleCollider.setRadius(0.30f);
         asteroid.addComponent(circleCollider);
 
         Rigidbody2D rb = new Rigidbody2D();
@@ -140,6 +150,7 @@ public class Prefabs {
         rb.setFixedRotation(false);
         rb.setContinuousCollision(false);
         asteroid.addComponent(rb);
+        asteroid.addComponent(new Asteroid());
 
 
 

@@ -19,6 +19,7 @@ public class Plasma extends Component {
 
     @Override
     public void update(float dt){
+        this.rb.setGravityScale(0.0f);
         velocity.x=0;
         velocity.y = plasmaSpeed;
         this.rb.setVelocity(velocity);
@@ -30,5 +31,9 @@ public class Plasma extends Component {
         if(obj.getComponent(PlayerController.class)!=null||obj.getComponent(Plasma.class)!=null){
             contact.setEnabled(false);
         }
+    }
+
+    public void disappear() {
+        this.gameObject.destroy();
     }
 }
