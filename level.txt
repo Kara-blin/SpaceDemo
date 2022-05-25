@@ -1,0 +1,830 @@
+[
+  {
+    "uid": 0,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.125,
+            "y": 2.875
+          },
+          "scale": {
+            "x": 0.85,
+            "y": 0.85
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 145
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 72.0,
+            "height": 72.0,
+            "texture": {
+              "filepath": "src/main/resources/images/spriteSheet1.png",
+              "width": 2448,
+              "height": 72
+            },
+            "texCoords": [
+              {
+                "x": 0.5588235,
+                "y": 1.0
+              },
+              {
+                "x": 0.5588235,
+                "y": 0.0
+              },
+              {
+                "x": 0.5294118,
+                "y": 0.0
+              },
+              {
+                "x": 0.5294118,
+                "y": 1.0
+              }
+            ]
+          },
+          "uid": 146
+        }
+      },
+      {
+        "type": "components.StateMachine",
+        "properties": {
+          "stateTransfers": [
+            [
+              {
+                "state": "BreakAsteroid4",
+                "trigger": "die"
+              },
+              "Die"
+            ],
+            [
+              {
+                "state": "BreakAsteroid1",
+                "trigger": "getDamage2"
+              },
+              "BreakAsteroid2"
+            ],
+            [
+              {
+                "state": "BreakAsteroid2",
+                "trigger": "getDamage3"
+              },
+              "BreakAsteroid3"
+            ],
+            [
+              {
+                "state": "BreakAsteroid3",
+                "trigger": "getDamage4"
+              },
+              "BreakAsteroid4"
+            ],
+            [
+              {
+                "state": "WholeAsteroid",
+                "trigger": "getDamage1"
+              },
+              "BreakAsteroid1"
+            ]
+          ],
+          "states": [
+            {
+              "title": "WholeAsteroid",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.5588235,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.5588235,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5294118,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5294118,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.116697505,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakAsteroid1",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.5882353,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.5882353,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5588235,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5588235,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakAsteroid2",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.61764705,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.61764705,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5882353,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5882353,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakAsteroid3",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.64705884,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.64705884,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.61764705,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.61764705,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakAsteroid4",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.6764706,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.6764706,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.64705884,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.64705884,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "Die",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.4117647,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.4117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.38235295,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.38235295,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                },
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.44117647,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.44117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.4117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.4117647,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                },
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.47058824,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.47058824,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.44117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.44117647,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            }
+          ],
+          "defaultStateTitle": "WholeAsteroid",
+          "uid": 147
+        }
+      },
+      {
+        "type": "physics2d.components.CircleCollider",
+        "properties": {
+          "radius": 0.3,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 148
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "bodyType": "Dynamic",
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": false,
+          "uid": 149
+        }
+      },
+      {
+        "type": "components.Asteroid",
+        "properties": {
+          "uid": 150
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 9,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.75,
+            "y": 0.76
+          },
+          "rotation": 180.0,
+          "zIndex": 0,
+          "uid": 178
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 72.0,
+            "height": 72.0,
+            "texture": {
+              "filepath": "src/main/resources/images/spriteSheet1.png",
+              "width": 2448,
+              "height": 72
+            },
+            "texCoords": [
+              {
+                "x": 0.029411765,
+                "y": 1.0
+              },
+              {
+                "x": 0.029411765,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 0.0
+              },
+              {
+                "x": 0.0,
+                "y": 1.0
+              }
+            ]
+          },
+          "uid": 179
+        }
+      },
+      {
+        "type": "components.StateMachine",
+        "properties": {
+          "stateTransfers": [
+            [
+              {
+                "state": "WholeShip",
+                "trigger": "getDamage1"
+              },
+              "BreakShip1"
+            ],
+            [
+              {
+                "state": "BreakShip1",
+                "trigger": "getDamage2"
+              },
+              "BreakShip2"
+            ],
+            [
+              {
+                "state": "BreakShip2",
+                "trigger": "getDamage3"
+              },
+              "BreakShip3"
+            ],
+            [
+              {
+                "state": "BreakShip3",
+                "trigger": "die"
+              },
+              "Die"
+            ]
+          ],
+          "states": [
+            {
+              "title": "WholeShip",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.029411765,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.029411765,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.083442405,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakShip1",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.05882353,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.05882353,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.029411765,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.029411765,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakShip2",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.0882353,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.0882353,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.05882353,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.05882353,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakShip3",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.11764706,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.11764706,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.0882353,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.0882353,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "Die",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.4117647,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.4117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.38235295,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.38235295,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.1
+                },
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.44117647,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.44117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.4117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.4117647,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.1
+                },
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.47058824,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.47058824,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.44117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.44117647,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.1
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            }
+          ],
+          "defaultStateTitle": "WholeShip",
+          "uid": 180
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 25.0,
+          "bodyType": "Dynamic",
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 0.0,
+          "isSensor": false,
+          "fixedRotation": true,
+          "continuousCollision": false,
+          "uid": 181
+        }
+      },
+      {
+        "type": "physics2d.components.Box2DCollider",
+        "properties": {
+          "halfSize": {
+            "x": 0.45,
+            "y": 0.35
+          },
+          "origin": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 182
+        }
+      },
+      {
+        "type": "components.PlayerController",
+        "properties": {
+          "HP": 100,
+          "flySpeed": 1.9,
+          "slowDownForce": 0.05,
+          "terminalVelocity": {
+            "x": 2.1,
+            "y": 3.1
+          },
+          "rechargeTime": 0.0,
+          "constantRechargeTime": 0.25,
+          "uid": 183
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  }
+]

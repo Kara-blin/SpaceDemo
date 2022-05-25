@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6412f858-933e-4729-b098-00cbb5d219df" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="GLSL Shader" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="266b5Rwf2A4J1XVJjBmRyjzEkNk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\GitHub\SpaceDemo\demo\assets\images" />
+      <recent name="C:\Users\user\IdeaProjects\demo\assets\images" />
+      <recent name="C:\Users\user\IdeaProjects\demo\assets\images\spritesheets" />
+      <recent name="C:\Users\user\IdeaProjects\demo\assets\sounds" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="demo.main" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo [:Main.main()]" type="GradleRunConfiguration" factoryName="Gradle" editBeforeRun="true" activateToolWindowBeforeRun="false">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Main.main()" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Gradle.demo [:Main.main()]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6412f858-933e-4729-b098-00cbb5d219df" name="Changes" comment="" />
+      <created>1646746806969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646746806969</updated>
+      <workItem from="1646746812172" duration="7749000" />
+      <workItem from="1646835702379" duration="15109000" />
+      <workItem from="1646987531601" duration="7225000" />
+      <workItem from="1647076734750" duration="4195000" />
+      <workItem from="1647160649668" duration="3562000" />
+      <workItem from="1647182196306" duration="4289000" />
+      <workItem from="1647366060364" duration="67000" />
+      <workItem from="1647697315077" duration="617000" />
+      <workItem from="1647764466230" duration="589000" />
+      <workItem from="1647798949778" duration="3752000" />
+      <workItem from="1647972141269" duration="4729000" />
+      <workItem from="1648105537780" duration="1635000" />
+      <workItem from="1648119875742" duration="1824000" />
+      <workItem from="1648124883845" duration="606000" />
+      <workItem from="1648465475935" duration="1067000" />
+      <workItem from="1648671577660" duration="39000" />
+      <workItem from="1648973772986" duration="8410000" />
+      <workItem from="1648982982524" duration="4490000" />
+      <workItem from="1649080777654" duration="1997000" />
+      <workItem from="1649181471950" duration="669000" />
+      <workItem from="1649184777364" duration="4904000" />
+      <workItem from="1649225841132" duration="766000" />
+      <workItem from="1649232524016" duration="10236000" />
+      <workItem from="1649265365491" duration="2626000" />
+      <workItem from="1649312200929" duration="598000" />
+      <workItem from="1649340285367" duration="3575000" />
+      <workItem from="1649354962758" duration="8642000" />
+      <workItem from="1649440267144" duration="8589000" />
+      <workItem from="1649518489232" duration="9879000" />
+      <workItem from="1649612809234" duration="8921000" />
+      <workItem from="1649696643013" duration="11955000" />
+      <workItem from="1649788343023" duration="10919000" />
+      <workItem from="1649868737461" duration="593000" />
+      <workItem from="1649872726530" duration="9884000" />
+      <workItem from="1649919493302" duration="354000" />
+      <workItem from="1649956184854" duration="61000" />
+      <workItem from="1650043600854" duration="9871000" />
+      <workItem from="1650098980702" duration="1263000" />
+      <workItem from="1650118414606" duration="8842000" />
+      <workItem from="1650182391204" duration="1181000" />
+      <workItem from="1650205254329" duration="588000" />
+      <workItem from="1650222125438" duration="8714000" />
+      <workItem from="1650302328213" duration="8784000" />
+      <workItem from="1650394729400" duration="8833000" />
+      <workItem from="1650436834820" duration="3407000" />
+      <workItem from="1650467968360" duration="8864000" />
+      <workItem from="1650547770624" duration="605000" />
+      <workItem from="1650559723322" duration="875000" />
+      <workItem from="1650562016668" duration="21000" />
+      <workItem from="1650562075878" duration="8000" />
+      <workItem from="1650563367710" duration="94000" />
+      <workItem from="1650563489971" duration="6186000" />
+      <workItem from="1650609031492" duration="5978000" />
+      <workItem from="1650700264880" duration="1860000" />
+      <workItem from="1650727151294" duration="5652000" />
+      <workItem from="1650824660870" duration="4128000" />
+      <workItem from="1650994506065" duration="5795000" />
+      <workItem from="1651075708712" duration="6680000" />
+      <workItem from="1651128626862" duration="742000" />
+      <workItem from="1651169999336" duration="2240000" />
+      <workItem from="1651237756748" duration="11250000" />
+      <workItem from="1651341586969" duration="11375000" />
+      <workItem from="1651390694698" duration="11123000" />
+      <workItem from="1651505484432" duration="3507000" />
+      <workItem from="1651597302817" duration="583000" />
+      <workItem from="1651601184680" duration="1667000" />
+      <workItem from="1651664611733" duration="7615000" />
+      <workItem from="1651693482505" duration="25000" />
+      <workItem from="1651693665020" duration="112000" />
+      <workItem from="1651694279254" duration="839000" />
+      <workItem from="1651695403232" duration="1131000" />
+      <workItem from="1651739784063" duration="5523000" />
+      <workItem from="1651916584802" duration="5161000" />
+      <workItem from="1651927067777" duration="10610000" />
+      <workItem from="1651942962916" duration="11615000" />
+      <workItem from="1651991279921" duration="21956000" />
+      <workItem from="1652100387396" duration="2857000" />
+      <workItem from="1652164226103" duration="6598000" />
+      <workItem from="1652178285721" duration="431000" />
+      <workItem from="1652189556166" duration="542000" />
+      <workItem from="1652427539915" duration="1595000" />
+      <workItem from="1652607394771" duration="641000" />
+      <workItem from="1653131885479" duration="2086000" />
+      <workItem from="1653220663946" duration="14328000" />
+      <workItem from="1653308912703" duration="6650000" />
+      <workItem from="1653367572750" duration="2402000" />
+      <workItem from="1653414475418" duration="5777000" />
+      <workItem from="1653493054240" duration="1456000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.nio.file.NoSuchFileException" package="java.nio.file" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
