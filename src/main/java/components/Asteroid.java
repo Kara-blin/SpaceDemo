@@ -9,7 +9,8 @@ public class Asteroid extends Component {
     private transient Rigidbody2D rb;
     private transient float asteroidSpeed = 0.17f;
     private transient Vector2f velocity = new Vector2f();
-    private transient int HP = 25;
+    private transient float HP = 25;
+    private transient float staticHP = 25;
     private  transient boolean isDead=false;
     private transient float timeToKill = 0.5f;
     private transient StateMachine stateMachine;
@@ -46,16 +47,16 @@ public class Asteroid extends Component {
         }
         if(obj.getComponent(Plasma.class)!=null){
             HP-=2;
-            if((HP<25)&&(HP>20)&&(changeState)){
+            if((HP<staticHP*0.75f)&&(HP>staticHP*0.5f)&&(changeState)){
                 changeState=false;
                 stateMachine.trigger("getDamage1");
-            }else if((HP<=20)&&(HP>15)&&(!changeState)){
+            }else if((HP<=staticHP*0.5f)&&(HP>staticHP*0.35f)&&(!changeState)){
                 changeState=true;
                 stateMachine.trigger("getDamage2");
-            }else if((HP<=15)&&(HP>5)&&(changeState)){
+            }else if((HP<=staticHP*0.35f)&&(HP>staticHP*0.2f)&&(changeState)){
                 changeState=false;
                 stateMachine.trigger("getDamage3");
-            }else if((HP<=5)&&(HP>0)&&(!changeState)){
+            }else if((HP<=staticHP*0.2f)&&(HP>0)&&(!changeState)){
                 changeState = true;
                 stateMachine.trigger("getDamage4");
             }else if(HP<=0){

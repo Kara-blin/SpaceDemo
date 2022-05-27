@@ -2,13 +2,22 @@
 œ
 java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÕ’Ñøÿÿÿÿ
 h
-java:S3776X"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(Ü¡áÈ
+java:S3776J"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(Ü¡áÈ
+W
+java:S1854["<Remove this useless assignment to local variable "windowX2".(¨–öþÿÿÿÿ
+[
+java:S1854u"@Remove this useless assignment to local variable "nextButtonX2".(“ðóœúÿÿÿÿ
 S
-java:S1854¢"7Remove this useless assignment to local variable "uid".(ùä¨«ÿÿÿÿÿ
-ž
-java:S1192"€Define a constant instead of duplicating this literal "src/main/resources/images/spritesheets/decorationsAndBlocks.png" 3 times.(ð¸”í8Ý¡öà0
-
-java:S1192+"kDefine a constant instead of duplicating this literal "src/main/resources/images/spriteSheet1.png" 3 times.(Û¸£ùýÿÿÿÿ8ýà0
+java:S1854"7Remove this useless assignment to local variable "uid".(ùä¨«ÿÿÿÿÿ
+H
+java:S1481["-Remove this unused "windowX2" local variable.(¨–öþÿÿÿÿ
+L
+java:S1481u"1Remove this unused "nextButtonX2" local variable.(“ðóœúÿÿÿÿ
+A
+java:S1068"+Remove this unused "sprites" private field.(÷éê¨
 ‚
-java:S1192"eDefine a constant instead of duplicating this literal "src/main/resources/images/gizmos.png" 3 times.(¬†û™8È¼úà0
-n	java:S135j"YReduce the total number of break and continue statements in this loop to use at most one.(àÙÌÚ
+java:S1192"eDefine a constant instead of duplicating this literal "src/main/resources/images/gizmos.png" 3 times.(¬†û™8˜‹„§0
+‡
+java:S1192-"lDefine a constant instead of duplicating this literal "src/main/resources/images/staticObject1.png" 3 times.(´œèÂüÿÿÿÿ
+†
+java:S1192*"kDefine a constant instead of duplicating this literal "src/main/resources/images/spriteSheet1.png" 3 times.(Û¸£ùýÿÿÿÿ

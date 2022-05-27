@@ -1,5 +1,5 @@
 
-g	java:S116"MRename this field "HP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¯©âûÿÿÿÿ
+g	java:S116"MRename this field "HP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İóãÍúÿÿÿÿ
 K
 java:S2065	"0Remove the "transient" modifier from this field.(¥ë¦øÿÿÿÿ
 F
@@ -8,14 +8,16 @@ java:S2065
 K
 java:S2065"0Remove the "transient" modifier from this field.(Ûâµûøÿÿÿÿ
 K
-java:S2065"0Remove the "transient" modifier from this field.(ÿ¯©âûÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(İóãÍúÿÿÿÿ
 F
-java:S2065"0Remove the "transient" modifier from this field.(«¯û¾
+java:S2065"0Remove the "transient" modifier from this field.(çª¯á
 F
-java:S2065"0Remove the "transient" modifier from this field.(–‡Ö®
+java:S2065"0Remove the "transient" modifier from this field.(«¯û¾
 F
-java:S2065"0Remove the "transient" modifier from this field.(­•ßï
-K
-java:S2065"0Remove the "transient" modifier from this field.(•ÉÑ°ÿÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(–‡Ö®
+M
+java:S2065"0Remove the "transient" modifier from this field.(­•ßï8—¤£0
+R
+java:S2065"0Remove the "transient" modifier from this field.(•ÉÑ°ÿÿÿÿÿ8œü¥£0
 1
-java:S3626A"Remove this redundant jump.(ûÁİ…
+java:S3626B"Remove this redundant jump.(ûÁİ…

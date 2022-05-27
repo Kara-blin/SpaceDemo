@@ -4,6 +4,7 @@ import jade.GameObject;
 import jade.KeyListener;
 import jade.Prefabs;
 import jade.Window;
+import org.jbox2d.dynamics.contacts.Contact;
 import org.joml.Vector2f;
 import physics2d.components.Rigidbody2D;
 
@@ -18,12 +19,11 @@ public class PlayerController extends Component {
 
     private transient Rigidbody2D rb;
     private transient StateMachine stateMachine;
-    private transient float bigJumpBoostFactor = 1.05f;
     private transient Vector2f acceleration = new Vector2f();
     private transient Vector2f velocity = new Vector2f();
     private transient boolean isDead = false;
-    private  float rechargeTime=0;
-    private float constantRechargeTime=0.25f;
+    private transient float rechargeTime=0;
+    private transient float constantRechargeTime=0.25f;
 
 
     public boolean canSpawn(){
@@ -107,4 +107,6 @@ public class PlayerController extends Component {
         this.rb.setVelocity(this.velocity);
         this.rb.setAngularVelocity(0);
     }
+
+
 }

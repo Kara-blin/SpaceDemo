@@ -164,7 +164,6 @@ public class Prefabs {
 
         AnimationState fly = new AnimationState();
         fly.title = "plasmaFly";
-        float defaultFrameTime = 0.23f;
         fly.addFrame(playerSprites.getSprite(16), 0.57f);
         fly.setLoop(false);
 
