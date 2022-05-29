@@ -30,6 +30,9 @@ public class Plasma extends Component {
             this.rb.setVelocity(new Vector2f());
             return;
         }
+        if(this.gameObject.transform.position.y>3.325f){
+            this.gameObject.destroy();
+        }
         this.rb.setGravityScale(0.0f);
         velocity.x=0;
         velocity.y = plasmaSpeed;
@@ -39,7 +42,7 @@ public class Plasma extends Component {
 
     @Override
     public void preSolve(GameObject obj, Contact contact, Vector2f contactNormal) {
-        if(obj.getComponent(PlayerController.class)!=null||obj.getComponent(Plasma.class)!=null){
+        if(obj.getComponent(PlayerController.class)!=null||obj.getComponent(Plasma.class)!=null||obj.getComponent(Ground.class)!=null){
             contact.setEnabled(false);
         }
     }

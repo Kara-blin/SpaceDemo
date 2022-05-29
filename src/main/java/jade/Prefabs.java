@@ -137,6 +137,11 @@ public class Prefabs {
         stateMachine.addState(break2.title, break3.title, "getDamage3");
         stateMachine.addState(break3.title, break4.title, "getDamage4");
         stateMachine.addState(break4.title, die.title, "die");
+        stateMachine.addState(whole.title, die.title, "die1");
+        stateMachine.addState(break1.title, die.title, "die2");
+        stateMachine.addState(break2.title, die.title, "die3");
+        stateMachine.addState(break3.title, die.title, "die4");
+        stateMachine.addState(break4.title, die.title, "die5");
 
 
         asteroid.addComponent(stateMachine);

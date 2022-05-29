@@ -107,26 +107,12 @@ R
 "src/main/java/renderer/Shader.java,9\c\9c472e4739a87980e6e1c8f0a8e8fb305bb033fb
 S
 #src/main/java/renderer/Texture.java,1\e\1ec62c6a592b1752a452e2ea4f901427276cb852
-Z
-*src/main/java/components/StateMachine.java,4\3\43ada85c911c501e275422c4d429f2f1c0723711
 Q
 !src/main/java/util/AssetPool.java,c\2\c2ab0e570e25fdd5b3c4ebb1c2eb8fd4bbd26a2a
 \
 ,src/main/java/components/SpriteRenderer.java,e\1\e1929a72b22041ac5efdb3b6536b8d4b1e7d517d
-O
-src/main/java/jade/Prefabs.java,3\d\3d904131dbbbdda031581e406b6fe14085f72aa0
-O
-src/main/java/scenes/Scene.java,a\5\a53259e02089593fcbc481b66dbf50fe80ee5d06
 e
 5src/main/java/scenes/LevelEditorSceneInitializer.java,a\0\a030bfd5f4422b57e7c7d4963d68b49659626d98
-T
-$src/main/java/components/Plasma.java,d\7\d7cb2fbdfd9384a98de6f88e1cc5686ff38f4cee
-V
-&src/main/java/components/Asteroid.java,e\d\ed0057ec0177de5782edef0c25e12d11de1d1e82
-^
-.src/main/java/components/PlayerController.java,a\6\a6f57c667c47799d3f06ce8da98274335b1328f9
-c
-3src/main/java/components/ComponentDeserializer.java,d\9\d9f2afabcdcf38885533248656d86f7996f5b314
 Z
 *src/main/java/components/EditorCamera.java,3\a\3a2625b43236e1a3fbf6830997e8dc4943346c8b
 Y
@@ -135,3 +121,17 @@ Y
 -src/main/java/observers/events/EventType.java,f\e\fe64c19a54ef99bcff660081b0611920e41e3a57
 e
 5src/main/java/physics2d/components/Box2DCollider.java,7\9\79774267b8fedda2991578bbe8bd138dfe33baf6
+O
+src/main/java/scenes/Scene.java,a\5\a53259e02089593fcbc481b66dbf50fe80ee5d06
+c
+3src/main/java/components/ComponentDeserializer.java,d\9\d9f2afabcdcf38885533248656d86f7996f5b314
+T
+$src/main/java/components/Plasma.java,d\7\d7cb2fbdfd9384a98de6f88e1cc5686ff38f4cee
+^
+.src/main/java/components/PlayerController.java,a\6\a6f57c667c47799d3f06ce8da98274335b1328f9
+Z
+*src/main/java/components/StateMachine.java,4\3\43ada85c911c501e275422c4d429f2f1c0723711
+V
+&src/main/java/components/Asteroid.java,e\d\ed0057ec0177de5782edef0c25e12d11de1d1e82
+O
+src/main/java/jade/Prefabs.java,3\d\3d904131dbbbdda031581e406b6fe14085f72aa0

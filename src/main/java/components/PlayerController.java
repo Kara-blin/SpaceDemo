@@ -11,11 +11,12 @@ import physics2d.components.Rigidbody2D;
 import static org.lwjgl.glfw.GLFW.*;
 
 public class PlayerController extends Component {
-    public int HP=100;
+    public transient int HP;
+    public transient int staticHP=100;
 
-    public float flySpeed = 1.9f;
-    public float slowDownForce = 0.05f;
-    public Vector2f terminalVelocity = new Vector2f(2.1f, 3.1f);
+    public transient float flySpeed = 1.9f;
+    public transient float slowDownForce = 0.05f;
+    public transient Vector2f terminalVelocity = new Vector2f(2.1f, 3.1f);
 
     private transient Rigidbody2D rb;
     private transient StateMachine stateMachine;
@@ -24,6 +25,8 @@ public class PlayerController extends Component {
     private transient boolean isDead = false;
     private transient float rechargeTime=0;
     private transient float constantRechargeTime=0.25f;
+    private  transient  boolean changeState = true;
+    private transient float timeToKill = 0.5f;
 
 
     public boolean canSpawn(){
@@ -36,6 +39,7 @@ public class PlayerController extends Component {
 
     @Override
     public void start() {
+        this.HP = this.staticHP;
         this.rb = gameObject.getComponent(Rigidbody2D.class);
         this.stateMachine = gameObject.getComponent(StateMachine.class);
         this.rb.setGravityScale(0.0f);
@@ -43,6 +47,14 @@ public class PlayerController extends Component {
 
     @Override
     public void update(float dt) {
+        if(isDead){
+            timeToKill -= dt;
+            if (timeToKill <= 0) {
+                this.gameObject.destroy();
+            }
+            this.rb.setVelocity(new Vector2f());
+            return;
+        }
         if(rechargeTime>0){
             rechargeTime-=dt;
         }
@@ -106,6 +118,41 @@ public class PlayerController extends Component {
         this.velocity.y = Math.max(Math.min(this.velocity.y, this.terminalVelocity.y), -this.terminalVelocity.y);
         this.rb.setVelocity(this.velocity);
         this.rb.setAngularVelocity(0);
+    }
+
+    @Override
+    public void beginCollision(GameObject obj, Contact contact, Vector2f contactNormal) {
+        if(isDead){
+            return;
+        }
+        if(obj.getComponent(Asteroid.class)!=null){
+            this.HP-=20;
+            if((HP<staticHP*0.65f)&&(HP>staticHP*0.45f)&&(changeState)){
+                changeState=false;
+                stateMachine.trigger("getDamage1");
+            }else if((HP<=staticHP*0.45f)&&(HP>staticHP*0.25f)&&(!changeState)){
+                changeState=true;
+                stateMachine.trigger("getDamage2");
+            }else if((HP<=staticHP*0.25f)&&(HP>0)&&(changeState)){
+                changeState=false;
+                stateMachine.trigger("getDamage3");
+            }else if(HP<=0){
+                disappear();
+            }
+            obj.getComponent(Asteroid.class).disappear();
+            return;
+        }
+
+    }
+
+    public void disappear() {
+        this.isDead = true;
+        this.velocity.zero();
+        this.rb.setVelocity(new Vector2f());
+        this.rb.setAngularVelocity(0.0f);
+        this.rb.setGravityScale(0.0f);
+        this.stateMachine.trigger("die");
+        this.rb.setIsSensor();
     }
 
 
