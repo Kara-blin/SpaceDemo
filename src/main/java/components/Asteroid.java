@@ -35,7 +35,9 @@ public class Asteroid extends Component {
             this.rb.setVelocity(new Vector2f());
             return;
         }
-        //if(this.gameObject.transform.position.y<-1)
+        if(this.gameObject.transform.position.y<-0.25f){
+            this.gameObject.destroy();
+        }
         this.rb.setGravityScale(0.0f);
         velocity.x = 0;
         velocity.y = -asteroidSpeed;

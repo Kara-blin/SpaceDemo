@@ -19,6 +19,5 @@ F
 java:S2065"0Remove the "transient" modifier from this field.(­•ßï
 K
 java:S2065"0Remove the "transient" modifier from this field.(•ÉÑ°ÿÿÿÿÿ
-Q	java:S125&"<This block of commented-out lines of code should be removed.(²‹ýì
 1
-java:S3626E"Remove this redundant jump.(ûÁÝ…
+java:S3626G"Remove this redundant jump.(ûÁÝ…
