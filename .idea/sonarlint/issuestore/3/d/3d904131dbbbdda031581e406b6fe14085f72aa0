@@ -1,5 +1,5 @@
 
 P
 java:S1118":Add a private constructor to hide the implicit public one.(èœ¬š
-
-java:S1192"kDefine a constant instead of duplicating this literal "src/main/resources/images/spriteSheet1.png" 3 times.(‘š­¼ÿÿÿÿÿ8ü¼íà0
+†
+java:S1192"kDefine a constant instead of duplicating this literal "src/main/resources/images/spriteSheet1.png" 3 times.(‘š­¼ÿÿÿÿÿ

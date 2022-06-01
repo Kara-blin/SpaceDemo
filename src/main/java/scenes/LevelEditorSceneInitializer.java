@@ -15,7 +15,7 @@ import java.util.Collection;
 
 public class LevelEditorSceneInitializer extends SceneInitializer {
 
-    private Spritesheet sprites;
+    private Spritesheet backSprites;
     private GameObject levelEditorStuff;
 
     public LevelEditorSceneInitializer() {
@@ -25,6 +25,7 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
     @Override
     public void init(Scene scene) {
         Spritesheet gizmos = AssetPool.getSpritesheet("src/main/resources/images/gizmos.png");
+        backSprites = AssetPool.getSpritesheet("src/main/resources/images/BackObjects.png");
 
         levelEditorStuff = scene.createGameObject("LevelEditor");
         levelEditorStuff.setNoSerialize();
@@ -48,9 +49,16 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
         AssetPool.addSpritesheet("src/main/resources/images/gizmos.png",
                 new Spritesheet(AssetPool.getTexture("src/main/resources/images/gizmos.png"), 24, 48, 3, 0));
 
+        AssetPool.addSpritesheet("src/main/resources/images/BackObjects.png",
+                new Spritesheet(AssetPool.getTexture("src/main/resources/images/BackObjects.png"), 158, 158, 2, 0));
 
 
-        AssetPool.getTexture("src/main/resources/images/blendImage2.png");
+
+
+
+
+
+
 
         AssetPool.addSound("src/main/resources/sounds/vestron-vulture-new-wave-hookers.ogg", true);
 
@@ -118,7 +126,46 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
                 ImGui.endTabItem();
         }
 
-        if (ImGui.beginTabItem("Prefabs")) {
+            if (ImGui.beginTabItem("BackGrounds items")) {
+                ImVec2 windowPos = new ImVec2();
+                ImGui.getWindowPos(windowPos);
+                ImVec2 windowSize = new ImVec2();
+                ImGui.getWindowSize(windowSize);
+                ImVec2 itemSpacing = new ImVec2();
+                ImGui.getStyle().getItemSpacing(itemSpacing);
+
+                float windowX2 = windowPos.x + windowSize.x;
+                for (int i = 0; i < 2; i++) {
+
+                    Sprite sprite = backSprites.getSprite(i);
+                    float spriteWidth = sprite.getWidth() ;
+                    float spriteHeight = sprite.getHeight() ;
+                    int id = sprite.getTexId();
+                    Vector2f[] texCoords = sprite.getTexCoords();
+
+                    ImGui.pushID(i);
+                    if (ImGui.imageButton(id, spriteWidth, spriteHeight, texCoords[2].x, texCoords[0].y, texCoords[0].x, texCoords[2].y)) {
+                        GameObject object = Prefabs.generateSpriteObject(sprite, 1f, 1f,0f);
+                        object.transform.zIndex = -1;
+                        object.addComponent(new CheckWinner());
+                        levelEditorStuff.getComponent(MouseControls.class).pickupObject(object);
+                    }
+                    ImGui.popID();
+
+                    ImVec2 lastButtonPos = new ImVec2();
+                    ImGui.getItemRectMax(lastButtonPos);
+                    float lastButtonX2 = lastButtonPos.x;
+                    float nextButtonX2 = lastButtonX2 + itemSpacing.x + spriteWidth;
+                    if (i + 1 < backSprites.size() && nextButtonX2 < windowX2) {
+                        ImGui.sameLine();
+                    }
+                }
+
+                ImGui.endTabItem();
+            }
+
+
+            if (ImGui.beginTabItem("Prefabs")) {
             int uid = 0;
             Spritesheet playerSprites = AssetPool.getSpritesheet("src/main/resources/images/spriteSheet1.png");
             Sprite sprite = playerSprites.getSprite(0);
@@ -147,6 +194,7 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
 
             ImGui.endTabItem();
         }
+
 
         if (ImGui.beginTabItem("Sounds")) {
             Collection<Sound> sounds = AssetPool.getAllSounds();
