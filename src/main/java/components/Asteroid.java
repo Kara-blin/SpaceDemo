@@ -4,6 +4,7 @@ import jade.GameObject;
 import org.jbox2d.dynamics.contacts.Contact;
 import org.joml.Vector2f;
 import physics2d.components.Rigidbody2D;
+import util.AssetPool;
 
 public class Asteroid extends Component {
     private transient Rigidbody2D rb;
@@ -78,6 +79,7 @@ public class Asteroid extends Component {
     }
 
     public void disappear() {
+        AssetPool.getSound("src/main/resources/sounds/explode.ogg").play();
         this.isDead = true;
         this.velocity.zero();
         this.rb.setVelocity(new Vector2f());

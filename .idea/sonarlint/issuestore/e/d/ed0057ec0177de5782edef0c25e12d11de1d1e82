@@ -1,24 +1,24 @@
 
-g	java:S116"MRename this field "HP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ‘„ìúÿÿÿÿ
+g	java:S116"MRename this field "HP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ‘„ìúÿÿÿÿ
 K
-java:S2065	"0Remove the "transient" modifier from this field.(¥ë¦øÿÿÿÿ
-F
 java:S2065
-"0Remove the "transient" modifier from this field.(ÊçÕ
+"0Remove the "transient" modifier from this field.(¥ë¦øÿÿÿÿ
+F
+java:S2065"0Remove the "transient" modifier from this field.(ÊçÕ
 K
-java:S2065"0Remove the "transient" modifier from this field.(Ûâµûøÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(Ûâµûøÿÿÿÿ
 K
-java:S2065"0Remove the "transient" modifier from this field.(Ğ‘„ìúÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(Ğ‘„ìúÿÿÿÿ
 F
-java:S2065"0Remove the "transient" modifier from this field.(çª¯á
+java:S2065"0Remove the "transient" modifier from this field.(çª¯á
 F
-java:S2065"0Remove the "transient" modifier from this field.(«¯û¾
+java:S2065"0Remove the "transient" modifier from this field.(«¯û¾
 F
-java:S2065"0Remove the "transient" modifier from this field.(–‡Ö®
+java:S2065"0Remove the "transient" modifier from this field.(–‡Ö®
 F
-java:S2065"0Remove the "transient" modifier from this field.(­•ßï
+java:S2065"0Remove the "transient" modifier from this field.(­•ßï
 K
-java:S2065"0Remove the "transient" modifier from this field.(•ÉÑ°ÿÿÿÿÿ
-Q	java:S125%"<This block of commented-out lines of code should be removed.(²‹ıì
+java:S2065"0Remove the "transient" modifier from this field.(•ÉÑ°ÿÿÿÿÿ
+Q	java:S125&"<This block of commented-out lines of code should be removed.(²‹ıì
 1
-java:S3626D"Remove this redundant jump.(ûÁİ…
+java:S3626E"Remove this redundant jump.(ûÁİ…

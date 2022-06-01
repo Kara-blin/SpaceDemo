@@ -1,52 +1,52 @@
 
-g	java:S116"MRename this field "HP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÓÜşÿÿÿÿ
+g	java:S116"MRename this field "HP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÓÜşÿÿÿÿ
 K
-java:S2065"0Remove the "transient" modifier from this field.(–ÓÜşÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(–ÓÜşÿÿÿÿ
 K
-java:S2065"0Remove the "transient" modifier from this field.(û¦€Êşÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(û¦€Êşÿÿÿÿ
 K
-java:S2065"0Remove the "transient" modifier from this field.(ÜÑÁ¹ıÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(ÜÑÁ¹ıÿÿÿÿ
 F
-java:S2065"0Remove the "transient" modifier from this field.(Ù¶¿
+java:S2065"0Remove the "transient" modifier from this field.(Ù¶¿
 F
-java:S2065"0Remove the "transient" modifier from this field.(¢ÁÑå
+java:S2065"0Remove the "transient" modifier from this field.(¢ÁÑå
 K
-java:S2065"0Remove the "transient" modifier from this field.(¥ë¦øÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(¥ë¦øÿÿÿÿ
 F
-java:S2065"0Remove the "transient" modifier from this field.(­•ßï
+java:S2065"0Remove the "transient" modifier from this field.(­•ßï
 K
-java:S2065"0Remove the "transient" modifier from this field.(Š–§¤ùÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(Š–§¤ùÿÿÿÿ
 K
-java:S2065"0Remove the "transient" modifier from this field.(Ûâµûøÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(Ûâµûøÿÿÿÿ
 F
-java:S2065"0Remove the "transient" modifier from this field.(«¯û¾
+java:S2065"0Remove the "transient" modifier from this field.(«¯û¾
 F
-java:S2065"0Remove the "transient" modifier from this field.(¡ö•¥
+java:S2065"0Remove the "transient" modifier from this field.(¡ö•¥
 F
-java:S2065"0Remove the "transient" modifier from this field.(ûßò®
+java:S2065"0Remove the "transient" modifier from this field.(ûßò®
 K
-java:S2065"0Remove the "transient" modifier from this field.(•ÉÑ°ÿÿÿÿÿ
+java:S2065"0Remove the "transient" modifier from this field.(•ÉÑ°ÿÿÿÿÿ
 F
-java:S2065"0Remove the "transient" modifier from this field.(–‡Ö®
+java:S2065"0Remove the "transient" modifier from this field.(–‡Ö®
 W
-java:S1126""AReplace this if-then-else statement by a single return statement.(ÆÖö
+java:S1126#"AReplace this if-then-else statement by a single return statement.(ÆÖö
 m
-java:S37762"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(Ÿ»ù€ÿÿÿÿÿ
->	java:S108V")Either remove or fill this block of code.(å¥‡
->	java:S108]")Either remove or fill this block of code.(å¥‡
-C	java:S108g")Either remove or fill this block of code.(¢…£šüÿÿÿÿ
+java:S37764"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(Ÿ»ù€ÿÿÿÿÿ
+>	java:S108[")Either remove or fill this block of code.(å¥‡
+>	java:S108b")Either remove or fill this block of code.(å¥‡
+J	java:S108l")Either remove or fill this block of code.(¢…£šüÿÿÿÿ8£‘İ…’0
 2
-java:S3626"Remove this redundant jump.(ûÁİ…
-K
+java:S3626–"Remove this redundant jump.(ûÁİ…
+D
 java:S1128
-")Remove this unused import 'scenes.Scene'.(¾½Šúÿÿÿÿ8û·ƒ’0
+")Remove this unused import 'scenes.Scene'.(¾½Šúÿÿÿÿ
 i
-java:S1104"NMake HP a static final constant or non-public and provide accessors if needed.(–ÓÜşÿÿÿÿ
+java:S1104"NMake HP a static final constant or non-public and provide accessors if needed.(–ÓÜşÿÿÿÿ
 o
-java:S1104"TMake staticHP a static final constant or non-public and provide accessors if needed.(û¦€Êşÿÿÿÿ
+java:S1104"TMake staticHP a static final constant or non-public and provide accessors if needed.(û¦€Êşÿÿÿÿ
 o
-java:S1104"TMake flySpeed a static final constant or non-public and provide accessors if needed.(ÜÑÁ¹ıÿÿÿÿ
+java:S1104"TMake flySpeed a static final constant or non-public and provide accessors if needed.(ÜÑÁ¹ıÿÿÿÿ
 o
-java:S1104"YMake slowDownForce a static final constant or non-public and provide accessors if needed.(Ù¶¿
+java:S1104"YMake slowDownForce a static final constant or non-public and provide accessors if needed.(Ù¶¿
 r
-java:S1104"\Make terminalVelocity a static final constant or non-public and provide accessors if needed.(¢ÁÑå
+java:S1104"\Make terminalVelocity a static final constant or non-public and provide accessors if needed.(¢ÁÑå

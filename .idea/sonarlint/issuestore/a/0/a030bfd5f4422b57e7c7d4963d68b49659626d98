@@ -2,17 +2,17 @@
 œ
 java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úÕ’Ñøÿÿÿÿ
 h
-java:S3776R"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(Ü¡áÈ
+java:S3776N"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(Ü¡áÈ
 W
-java:S1854c"<Remove this useless assignment to local variable "windowX2".(¨–öþÿÿÿÿ
+java:S1854_"<Remove this useless assignment to local variable "windowX2".(¨–öþÿÿÿÿ
 [
-java:S1854}"@Remove this useless assignment to local variable "nextButtonX2".(“ðóœúÿÿÿÿ
+java:S1854y"@Remove this useless assignment to local variable "nextButtonX2".(“ðóœúÿÿÿÿ
 S
-java:S1854¼"7Remove this useless assignment to local variable "uid".(ùä¨«ÿÿÿÿÿ
+java:S1854¸"7Remove this useless assignment to local variable "uid".(ùä¨«ÿÿÿÿÿ
 H
-java:S1481c"-Remove this unused "windowX2" local variable.(¨–öþÿÿÿÿ
+java:S1481_"-Remove this unused "windowX2" local variable.(¨–öþÿÿÿÿ
 L
-java:S1481}"1Remove this unused "nextButtonX2" local variable.(“ðóœúÿÿÿÿ
+java:S1481y"1Remove this unused "nextButtonX2" local variable.(“ðóœúÿÿÿÿ
 ‡
 java:S1192."lDefine a constant instead of duplicating this literal "src/main/resources/images/staticObject1.png" 3 times.(´œèÂüÿÿÿÿ
 †

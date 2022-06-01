@@ -8,6 +8,7 @@ import org.jbox2d.dynamics.contacts.Contact;
 import org.joml.Vector2f;
 import physics2d.components.Rigidbody2D;
 import scenes.Scene;
+import util.AssetPool;
 
 import static org.lwjgl.glfw.GLFW.*;
 
@@ -40,6 +41,7 @@ public class PlayerController extends Component {
 
     @Override
     public void start() {
+
         this.HP = this.staticHP;
         this.rb = gameObject.getComponent(Rigidbody2D.class);
         this.stateMachine = gameObject.getComponent(StateMachine.class);
@@ -48,6 +50,9 @@ public class PlayerController extends Component {
 
     @Override
     public void update(float dt) {
+        if(!AssetPool.getSound("src/main/resources/sounds/Bill_Kiley_-_Driving_Force_Neon_Fog.ogg").isPlaying()){
+            AssetPool.getSound("src/main/resources/sounds/Bill_Kiley_-_Driving_Force_Neon_Fog.ogg").play();
+        }
         if(isDead){
             timeToKill -= dt;
             if (timeToKill <= 0) {
@@ -105,6 +110,7 @@ public class PlayerController extends Component {
         }
         if((KeyListener.isKeyPressed(GLFW_KEY_SPACE))&&(canSpawn())){
             rechargeTime = constantRechargeTime;
+            AssetPool.getSound("src/main/resources/sounds/plasma.ogg").play();
             Vector2f position = new Vector2f(this.gameObject.transform.position).add(new Vector2f(0,0.30f));
             GameObject plasma = Prefabs.generatePlasma(position);
             Window.getScene().addGameObjectToScene(plasma);
@@ -147,6 +153,7 @@ public class PlayerController extends Component {
     }
 
     public void disappear() {
+        AssetPool.getSound("src/main/resources/sounds/explode.ogg").play();
         this.isDead = true;
         this.velocity.zero();
         this.rb.setVelocity(new Vector2f());

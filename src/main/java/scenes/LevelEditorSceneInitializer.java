@@ -54,13 +54,9 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
 
 
 
-
-
-
-
-
-
-        AssetPool.addSound("src/main/resources/sounds/vestron-vulture-new-wave-hookers.ogg", true);
+        AssetPool.addSound("src/main/resources/sounds/Bill_Kiley_-_Driving_Force_Neon_Fog.ogg", true);
+        AssetPool.addSound("src/main/resources/sounds/plasma.ogg", false);
+        AssetPool.addSound("src/main/resources/sounds/explode.ogg", false);
 
 
         for (GameObject g : scene.getGameObjects()) {
