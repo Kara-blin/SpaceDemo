@@ -1,12 +1,0 @@
-
-r
-java:S12063"PThis class overrides "equals()" and should therefore also override "hashCode()".(Ý¢êÍýÿÿÿÿ8ç…£¬ˆ0
-q
-java:S1104	"TMake position a static final constant or non-public and provide accessors if needed.(òêÙ¨8ñ…£¬ˆ0
-n
-java:S1104
-"QMake scale a static final constant or non-public and provide accessors if needed.(ËªïÕ8ò…£¬ˆ0
-v
-java:S1104"TMake rotation a static final constant or non-public and provide accessors if needed.(Ææ€³þÿÿÿÿ8ò…£¬ˆ0
-t
-java:S1104"RMake zIndex a static final constant or non-public and provide accessors if needed.(Ñ¹›àùÿÿÿÿ8ò…£¬ˆ0

@@ -497,7 +497,7 @@
     "isDead": false
   },
   {
-    "uid": 15,
+    "uid": 5,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -566,7 +566,7 @@
     "isDead": false
   },
   {
-    "uid": 16,
+    "uid": 6,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -635,7 +635,7 @@
     "isDead": false
   },
   {
-    "uid": 17,
+    "uid": 7,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -704,7 +704,7 @@
     "isDead": false
   },
   {
-    "uid": 18,
+    "uid": 8,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -773,7 +773,7 @@
     "isDead": false
   },
   {
-    "uid": 19,
+    "uid": 9,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -842,7 +842,7 @@
     "isDead": false
   },
   {
-    "uid": 20,
+    "uid": 10,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -911,7 +911,7 @@
     "isDead": false
   },
   {
-    "uid": 21,
+    "uid": 11,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -980,7 +980,7 @@
     "isDead": false
   },
   {
-    "uid": 22,
+    "uid": 12,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1049,7 +1049,7 @@
     "isDead": false
   },
   {
-    "uid": 23,
+    "uid": 13,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1118,7 +1118,7 @@
     "isDead": false
   },
   {
-    "uid": 24,
+    "uid": 14,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1187,7 +1187,7 @@
     "isDead": false
   },
   {
-    "uid": 25,
+    "uid": 15,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1256,7 +1256,7 @@
     "isDead": false
   },
   {
-    "uid": 26,
+    "uid": 16,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1325,7 +1325,7 @@
     "isDead": false
   },
   {
-    "uid": 27,
+    "uid": 17,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1394,7 +1394,7 @@
     "isDead": false
   },
   {
-    "uid": 28,
+    "uid": 18,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1463,7 +1463,7 @@
     "isDead": false
   },
   {
-    "uid": 29,
+    "uid": 19,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1532,76 +1532,7 @@
     "isDead": false
   },
   {
-    "uid": 30,
-    "name": "Sprite_Object_Gen",
-    "components": [
-      {
-        "type": "jade.Transform",
-        "properties": {
-          "position": {
-            "x": 2.475,
-            "y": 1.675
-          },
-          "scale": {
-            "x": 0.5,
-            "y": 0.5
-          },
-          "rotation": 28.4,
-          "zIndex": -1,
-          "uid": 170
-        }
-      },
-      {
-        "type": "components.SpriteRenderer",
-        "properties": {
-          "color": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0,
-            "w": 1.0
-          },
-          "sprite": {
-            "width": 158.0,
-            "height": 158.0,
-            "texture": {
-              "filepath": "src/main/resources/images/BackObjects.png",
-              "width": 316,
-              "height": 158
-            },
-            "texCoords": [
-              {
-                "x": 1.0,
-                "y": 1.0
-              },
-              {
-                "x": 1.0,
-                "y": 0.0
-              },
-              {
-                "x": 0.5,
-                "y": 0.0
-              },
-              {
-                "x": 0.5,
-                "y": 1.0
-              }
-            ]
-          },
-          "uid": 171
-        }
-      },
-      {
-        "type": "components.CheckWinner",
-        "properties": {
-          "uid": 172
-        }
-      }
-    ],
-    "doSerialization": true,
-    "isDead": false
-  },
-  {
-    "uid": 31,
+    "uid": 20,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1670,7 +1601,7 @@
     "isDead": false
   },
   {
-    "uid": 32,
+    "uid": 21,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -1739,8 +1670,8 @@
     "isDead": false
   },
   {
-    "uid": 33,
-    "name": "Sprite_Object_Gen",
+    "uid": 22,
+    "name": "spaceShip1",
     "components": [
       {
         "type": "jade.Transform",
@@ -1865,7 +1796,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -2130,8 +2061,8 @@
     "isDead": false
   },
   {
-    "uid": 34,
-    "name": "Sprite_Object_Gen",
+    "uid": 23,
+    "name": "SpaceShip2",
     "components": [
       {
         "type": "jade.Transform",
@@ -2256,7 +2187,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -2521,7 +2452,7 @@
     "isDead": false
   },
   {
-    "uid": 48,
+    "uid": 24,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -2689,7 +2620,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -2984,7 +2915,7 @@
     "isDead": false
   },
   {
-    "uid": 50,
+    "uid": 25,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -3152,7 +3083,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -3447,7 +3378,7 @@
     "isDead": false
   },
   {
-    "uid": 52,
+    "uid": 26,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -3615,7 +3546,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -3910,7 +3841,7 @@
     "isDead": false
   },
   {
-    "uid": 54,
+    "uid": 27,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -4078,7 +4009,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -4373,7 +4304,7 @@
     "isDead": false
   },
   {
-    "uid": 56,
+    "uid": 28,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -4541,7 +4472,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -4836,7 +4767,7 @@
     "isDead": false
   },
   {
-    "uid": 58,
+    "uid": 29,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -5004,7 +4935,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -5299,7 +5230,7 @@
     "isDead": false
   },
   {
-    "uid": 60,
+    "uid": 30,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -5467,7 +5398,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -5762,7 +5693,7 @@
     "isDead": false
   },
   {
-    "uid": 62,
+    "uid": 31,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -5930,7 +5861,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -6225,7 +6156,7 @@
     "isDead": false
   },
   {
-    "uid": 64,
+    "uid": 32,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -6393,7 +6324,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -6688,7 +6619,7 @@
     "isDead": false
   },
   {
-    "uid": 66,
+    "uid": 33,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -6856,7 +6787,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -7151,7 +7082,7 @@
     "isDead": false
   },
   {
-    "uid": 68,
+    "uid": 34,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -7319,7 +7250,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -7614,7 +7545,7 @@
     "isDead": false
   },
   {
-    "uid": 70,
+    "uid": 35,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -7782,7 +7713,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -8077,7 +8008,7 @@
     "isDead": false
   },
   {
-    "uid": 72,
+    "uid": 36,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -8245,7 +8176,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -8540,7 +8471,7 @@
     "isDead": false
   },
   {
-    "uid": 74,
+    "uid": 37,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -8708,7 +8639,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -9003,7 +8934,7 @@
     "isDead": false
   },
   {
-    "uid": 76,
+    "uid": 38,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -9171,7 +9102,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.06663056,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -9466,7 +9397,7 @@
     "isDead": false
   },
   {
-    "uid": 78,
+    "uid": 39,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -9634,7 +9565,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {
@@ -9929,7 +9860,7 @@
     "isDead": false
   },
   {
-    "uid": 80,
+    "uid": 40,
     "name": "Sprite_Object_Gen",
     "components": [
       {
@@ -10097,7 +10028,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.033347324,
+              "time": 0.08346672,
               "doesLoop": false
             },
             {

@@ -55,16 +55,13 @@ public abstract class Component {
                 if (isTransient) {
                     continue;
                 }
-
                 boolean isPrivate = Modifier.isPrivate(field.getModifiers());
                 if (isPrivate) {
                     field.setAccessible(true);
                 }
-
                 Class type = field.getType();
                 Object value = field.get(this);
                 String name = field.getName();
-
                 if (type == int.class) {
                     int val = (int)value;
                     field.set(this, JImGui.dragInt(name, val));
@@ -96,14 +93,9 @@ public abstract class Component {
                         field.set(this, type.getEnumConstants()[index.get()]);
                     }
                 }
-
-
-
-
                 if (isPrivate) {
                     field.setAccessible(false);
                 }
-
             }
         } catch (IllegalAccessException e) {
             e.printStackTrace();

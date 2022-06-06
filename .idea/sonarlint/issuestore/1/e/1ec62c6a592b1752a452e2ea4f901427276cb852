@@ -1,15 +1,0 @@
-
-k
-java:S1206b"PThis class overrides "equals()" and should therefore also override "hashCode()".(Ý¢êÍýÿÿÿÿ
-:
-java:S1659"$Declare "height" on a separate line.(ô…ð­
-K
-java:S2065"0Remove the "transient" modifier from this field.(²¤©Ëüÿÿÿÿ
--
-java:S2757"Was "-=" meant instead?(€»‡’
-C
-java:S4274K"(Replace this assert with a proper check.(÷ëÒäûÿÿÿÿ
-O
-java:S11178"9Rename "width" which hides the field declared at line 14.(¨ø¦È
-P
-java:S11179":Rename "height" which hides the field declared at line 14.(ÄŠ»¡

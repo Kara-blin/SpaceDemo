@@ -80,7 +80,7 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
         levelEditorStuff.imgui();
         ImGui.end();
 
-        ImGui.begin("Test window");
+        ImGui.begin("Game Objects Window");
 
         if (ImGui.beginTabBar("WindowTabBar")) {
             if (ImGui.beginTabItem("Walls")) {
