@@ -1,7 +1,7 @@
 package components;
 
-import jade.KeyListener;
-import jade.Window;
+import engine.KeyListener;
+import engine.Window;
 
 import static org.lwjgl.glfw.GLFW.GLFW_KEY_E;
 import static org.lwjgl.glfw.GLFW.GLFW_KEY_R;

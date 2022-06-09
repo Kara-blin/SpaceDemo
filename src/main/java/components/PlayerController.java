@@ -1,13 +1,12 @@
 package components;
 
-import jade.GameObject;
-import jade.KeyListener;
-import jade.Prefabs;
-import jade.Window;
+import engine.GameObject;
+import engine.KeyListener;
+import engine.Prefabs;
+import engine.Window;
 import org.jbox2d.dynamics.contacts.Contact;
 import org.joml.Vector2f;
 import physics2d.components.Rigidbody2D;
-import scenes.Scene;
 import util.AssetPool;
 
 import static org.lwjgl.glfw.GLFW.*;

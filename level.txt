@@ -1,10 +1,10 @@
 [
   {
-    "uid": 0,
+    "uid": 188,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": -0.175,
@@ -107,11 +107,11 @@
     "isDead": false
   },
   {
-    "uid": 1,
+    "uid": 189,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 6.175,
@@ -214,11 +214,11 @@
     "isDead": false
   },
   {
-    "uid": 2,
+    "uid": 190,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.875,
@@ -321,11 +321,11 @@
     "isDead": false
   },
   {
-    "uid": 3,
+    "uid": 191,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.875,
@@ -428,11 +428,11 @@
     "isDead": false
   },
   {
-    "uid": 4,
+    "uid": 192,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 5.375,
@@ -497,11 +497,11 @@
     "isDead": false
   },
   {
-    "uid": 5,
+    "uid": 193,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 0.725,
@@ -566,11 +566,11 @@
     "isDead": false
   },
   {
-    "uid": 6,
+    "uid": 194,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 0.875,
@@ -635,11 +635,11 @@
     "isDead": false
   },
   {
-    "uid": 7,
+    "uid": 195,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 1.625,
@@ -704,11 +704,11 @@
     "isDead": false
   },
   {
-    "uid": 8,
+    "uid": 196,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 0.625,
@@ -773,11 +773,11 @@
     "isDead": false
   },
   {
-    "uid": 9,
+    "uid": 197,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 1.625,
@@ -842,11 +842,11 @@
     "isDead": false
   },
   {
-    "uid": 10,
+    "uid": 198,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 4.375,
@@ -911,11 +911,11 @@
     "isDead": false
   },
   {
-    "uid": 11,
+    "uid": 199,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 3.375,
@@ -980,11 +980,11 @@
     "isDead": false
   },
   {
-    "uid": 12,
+    "uid": 200,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 3.875,
@@ -1049,11 +1049,11 @@
     "isDead": false
   },
   {
-    "uid": 13,
+    "uid": 201,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 1.875,
@@ -1118,11 +1118,11 @@
     "isDead": false
   },
   {
-    "uid": 14,
+    "uid": 202,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 0.625,
@@ -1187,11 +1187,11 @@
     "isDead": false
   },
   {
-    "uid": 15,
+    "uid": 203,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 5.625,
@@ -1256,11 +1256,11 @@
     "isDead": false
   },
   {
-    "uid": 16,
+    "uid": 204,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 5.375,
@@ -1325,11 +1325,11 @@
     "isDead": false
   },
   {
-    "uid": 17,
+    "uid": 205,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 4.125,
@@ -1394,11 +1394,11 @@
     "isDead": false
   },
   {
-    "uid": 18,
+    "uid": 206,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.225,
@@ -1463,11 +1463,11 @@
     "isDead": false
   },
   {
-    "uid": 19,
+    "uid": 207,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.375,
@@ -1532,11 +1532,11 @@
     "isDead": false
   },
   {
-    "uid": 20,
+    "uid": 208,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 3.375,
@@ -1601,11 +1601,11 @@
     "isDead": false
   },
   {
-    "uid": 21,
+    "uid": 209,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.875,
@@ -1670,11 +1670,11 @@
     "isDead": false
   },
   {
-    "uid": 22,
+    "uid": 210,
     "name": "spaceShip1",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.375,
@@ -1796,7 +1796,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -2061,11 +2061,11 @@
     "isDead": false
   },
   {
-    "uid": 23,
+    "uid": 211,
     "name": "SpaceShip2",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.875,
@@ -2187,7 +2187,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -2452,11 +2452,11 @@
     "isDead": false
   },
   {
-    "uid": 24,
+    "uid": 212,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 3.375,
@@ -2620,7 +2620,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -2915,11 +2915,11 @@
     "isDead": false
   },
   {
-    "uid": 25,
+    "uid": 213,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.625,
@@ -3083,7 +3083,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -3378,11 +3378,11 @@
     "isDead": false
   },
   {
-    "uid": 26,
+    "uid": 214,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.375,
@@ -3546,7 +3546,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -3841,11 +3841,11 @@
     "isDead": false
   },
   {
-    "uid": 27,
+    "uid": 215,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 3.625,
@@ -4009,7 +4009,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -4304,11 +4304,11 @@
     "isDead": false
   },
   {
-    "uid": 28,
+    "uid": 216,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.875,
@@ -4472,7 +4472,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -4767,11 +4767,11 @@
     "isDead": false
   },
   {
-    "uid": 29,
+    "uid": 217,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.375,
@@ -4935,7 +4935,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -5230,11 +5230,11 @@
     "isDead": false
   },
   {
-    "uid": 30,
+    "uid": 218,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 3.125,
@@ -5398,7 +5398,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -5693,11 +5693,11 @@
     "isDead": false
   },
   {
-    "uid": 31,
+    "uid": 219,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 3.375,
@@ -5861,7 +5861,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -6156,11 +6156,11 @@
     "isDead": false
   },
   {
-    "uid": 32,
+    "uid": 220,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 3.875,
@@ -6324,7 +6324,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -6619,11 +6619,11 @@
     "isDead": false
   },
   {
-    "uid": 33,
+    "uid": 221,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 4.125,
@@ -6787,7 +6787,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -7082,11 +7082,11 @@
     "isDead": false
   },
   {
-    "uid": 34,
+    "uid": 222,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 3.125,
@@ -7250,7 +7250,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -7545,11 +7545,11 @@
     "isDead": false
   },
   {
-    "uid": 35,
+    "uid": 223,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 2.375,
@@ -7713,7 +7713,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -8008,11 +8008,11 @@
     "isDead": false
   },
   {
-    "uid": 36,
+    "uid": 224,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 0.875,
@@ -8176,7 +8176,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -8471,11 +8471,11 @@
     "isDead": false
   },
   {
-    "uid": 37,
+    "uid": 225,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 0.625,
@@ -8639,7 +8639,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -8934,11 +8934,11 @@
     "isDead": false
   },
   {
-    "uid": 38,
+    "uid": 226,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 1.375,
@@ -9102,7 +9102,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -9397,11 +9397,11 @@
     "isDead": false
   },
   {
-    "uid": 39,
+    "uid": 227,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 0.625,
@@ -9565,7 +9565,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -9860,11 +9860,11 @@
     "isDead": false
   },
   {
-    "uid": 40,
+    "uid": 228,
     "name": "Sprite_Object_Gen",
     "components": [
       {
-        "type": "jade.Transform",
+        "type": "engine.Transform",
         "properties": {
           "position": {
             "x": 0.875,
@@ -10028,7 +10028,7 @@
                   "frameTime": 0.2
                 }
               ],
-              "time": 0.08346672,
+              "time": 0.083666995,
               "doesLoop": false
             },
             {
@@ -10316,6 +10316,469 @@
         "type": "components.Asteroid",
         "properties": {
           "uid": 257
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 229,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "engine.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 4.625
+          },
+          "scale": {
+            "x": 0.85,
+            "y": 0.85
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 278
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 72.0,
+            "height": 72.0,
+            "texture": {
+              "filepath": "src/main/resources/images/spriteSheet1.png",
+              "width": 2448,
+              "height": 72
+            },
+            "texCoords": [
+              {
+                "x": 0.5588235,
+                "y": 1.0
+              },
+              {
+                "x": 0.5588235,
+                "y": 0.0
+              },
+              {
+                "x": 0.5294118,
+                "y": 0.0
+              },
+              {
+                "x": 0.5294118,
+                "y": 1.0
+              }
+            ]
+          },
+          "uid": 279
+        }
+      },
+      {
+        "type": "components.StateMachine",
+        "properties": {
+          "stateTransfers": [
+            [
+              {
+                "state": "BreakAsteroid4",
+                "trigger": "die"
+              },
+              "Die"
+            ],
+            [
+              {
+                "state": "BreakAsteroid1",
+                "trigger": "getDamage2"
+              },
+              "BreakAsteroid2"
+            ],
+            [
+              {
+                "state": "BreakAsteroid2",
+                "trigger": "getDamage3"
+              },
+              "BreakAsteroid3"
+            ],
+            [
+              {
+                "state": "BreakAsteroid3",
+                "trigger": "getDamage4"
+              },
+              "BreakAsteroid4"
+            ],
+            [
+              {
+                "state": "WholeAsteroid",
+                "trigger": "die1"
+              },
+              "Die"
+            ],
+            [
+              {
+                "state": "WholeAsteroid",
+                "trigger": "getDamage1"
+              },
+              "BreakAsteroid1"
+            ],
+            [
+              {
+                "state": "BreakAsteroid1",
+                "trigger": "die2"
+              },
+              "Die"
+            ],
+            [
+              {
+                "state": "BreakAsteroid2",
+                "trigger": "die3"
+              },
+              "Die"
+            ],
+            [
+              {
+                "state": "BreakAsteroid3",
+                "trigger": "die4"
+              },
+              "Die"
+            ],
+            [
+              {
+                "state": "BreakAsteroid4",
+                "trigger": "die5"
+              },
+              "Die"
+            ]
+          ],
+          "states": [
+            {
+              "title": "WholeAsteroid",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.5588235,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.5588235,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5294118,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5294118,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.083666995,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakAsteroid1",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.5882353,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.5882353,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5588235,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5588235,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakAsteroid2",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.61764705,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.61764705,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5882353,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.5882353,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakAsteroid3",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.64705884,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.64705884,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.61764705,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.61764705,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "BreakAsteroid4",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.6764706,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.6764706,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.64705884,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.64705884,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            },
+            {
+              "title": "Die",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.4117647,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.4117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.38235295,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.38235295,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                },
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.44117647,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.44117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.4117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.4117647,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                },
+                {
+                  "sprite": {
+                    "width": 72.0,
+                    "height": 72.0,
+                    "texture": {
+                      "filepath": "src/main/resources/images/spriteSheet1.png",
+                      "width": 2448,
+                      "height": 72
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.47058824,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.47058824,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.44117647,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.44117647,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.2
+                }
+              ],
+              "time": 0.0,
+              "doesLoop": false
+            }
+          ],
+          "defaultStateTitle": "WholeAsteroid",
+          "uid": 280
+        }
+      },
+      {
+        "type": "physics2d.components.CircleCollider",
+        "properties": {
+          "radius": 0.3,
+          "offset": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "uid": 281
+        }
+      },
+      {
+        "type": "physics2d.components.Rigidbody2D",
+        "properties": {
+          "velocity": {
+            "x": 0.0,
+            "y": 0.0
+          },
+          "angularDamping": 0.8,
+          "linearDamping": 0.9,
+          "mass": 0.0,
+          "bodyType": "Dynamic",
+          "friction": 0.1,
+          "angularVelocity": 0.0,
+          "gravityScale": 1.0,
+          "isSensor": false,
+          "fixedRotation": false,
+          "continuousCollision": false,
+          "uid": 282
+        }
+      },
+      {
+        "type": "components.Asteroid",
+        "properties": {
+          "uid": 283
         }
       }
     ],

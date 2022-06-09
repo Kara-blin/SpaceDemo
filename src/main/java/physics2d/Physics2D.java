@@ -1,7 +1,7 @@
 package physics2d;
 
-import jade.GameObject;
-import jade.Transform;
+import engine.GameObject;
+import engine.Transform;
 import org.jbox2d.collision.shapes.CircleShape;
 import org.jbox2d.collision.shapes.PolygonShape;
 import org.jbox2d.common.Vec2;
@@ -22,7 +22,7 @@ public class Physics2D {
     private int positionIterations = 3;
 
     public Physics2D() {
-        world.setContactListener(new JadeContactListener());
+        world.setContactListener(new EngineContactListener());
     }
 
     public Vector2f getGravity() {

@@ -1,9 +1,8 @@
 package components;
 
-import jade.GameObject;
-import jade.Window;
+import engine.GameObject;
+import engine.Window;
 import scenes.LevelSceneInitializer;
-import util.AssetPool;
 
 public class CheckWinner extends Component {
     transient public int playerCheck;

@@ -1,10 +1,9 @@
 package editor;
 
 import imgui.ImGui;
-import imgui.flag.ImGuiDragDropFlags;
 import imgui.flag.ImGuiTreeNodeFlags;
-import jade.GameObject;
-import jade.Window;
+import engine.GameObject;
+import engine.Window;
 
 import java.util.List;
 

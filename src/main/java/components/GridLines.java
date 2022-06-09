@@ -1,7 +1,7 @@
 package components;
 
-import jade.Camera;
-import jade.Window;
+import engine.Camera;
+import engine.Window;
 import org.joml.Vector2f;
 import org.joml.Vector3f;
 import renderer.DebugDraw;

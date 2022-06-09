@@ -1,0 +1,19 @@
+
+@
+java:S1659"%Declare "scrollY" on a separate line.(©¿ò¬þÿÿÿÿ
+V
+java:S1659"ADeclare "yPos" and all following declarations on a separate line.(ÐË¯
+E
+java:S1197"*Move the array designators [] to the type.(ÀõãÞüÿÿÿÿ
+H
+java:S1172;"-Remove this unused method parameter "window".(ÌþÏûùÿÿÿÿ
+R
+java:S1172K"7Remove these unused method parameters "window", "mods".(“ôÊöþÿÿÿÿ
+C
+java:S1172\"-Remove this unused method parameter "window".(þ¿ïó
+I
+java:S1128".Remove this unused import 'org.joml.Vector3f'.(¹þÞìýÿÿÿÿ
+>
+java:S1068")Remove this unused "lastY" private field.(ÐË¯
+>
+java:S1068")Remove this unused "lastX" private field.(ÐË¯

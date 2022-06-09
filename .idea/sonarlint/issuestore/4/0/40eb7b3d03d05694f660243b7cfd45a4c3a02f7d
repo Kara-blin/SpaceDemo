@@ -1,6 +1,0 @@
-
-U	java:S106:"9Replace this use of System.out or System.err by a logger.(Ø€œÿ8›œœ¬ˆ0
-W
-java:S1128":Remove this unused import 'imgui.flag.ImGuiDragDropFlags'.(÷“Ò8¢¥ÿÖˆ0
-Q
-java:S10668"/Merge this if statement with the enclosing one.(¥ŒÒ üÿÿÿÿ8œœ¬ˆ0

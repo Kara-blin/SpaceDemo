@@ -3,7 +3,7 @@ package scenes;
 import components.SpriteRenderer;
 import components.Spritesheet;
 import components.StateMachine;
-import jade.GameObject;
+import engine.GameObject;
 import util.AssetPool;
 
 public class LevelSceneInitializer extends SceneInitializer {
